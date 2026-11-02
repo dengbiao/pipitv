@@ -1,0 +1,70 @@
+/* Explicit :focus is required by the TV's Chromium 83, including remote-generated events. */
+.app [data-focusable]:focus,.app [data-remote-focused="true"]:not([data-focus-scope]) {
+  outline:none!important;
+  box-shadow:0 0 0 3px var(--focus),0 5px 18px var(--shadow-soft)!important;
+  z-index:2;
+}
+.app .home .entrance:focus,.app .home .entrance[data-remote-focused="true"] {
+  outline:none!important;box-shadow:none!important;
+  background:transparent;transform:translateY(-.3vw);
+}
+.app .home .entrance:focus .entrance-art-wrap,.app .home .entrance[data-remote-focused="true"] .entrance-art-wrap {
+  box-shadow:0 0 0 .4vw var(--focus),0 .7vw 1.6vw var(--shadow-soft);
+}
+.app [data-focusable] {scroll-margin:18px;scroll-margin-top:18px;scroll-margin-bottom:18px}
+.app [aria-disabled="true"] {opacity:.6}
+.remote-select,.remote-text-field {display:flex;align-items:center;justify-content:space-between;gap:16px;
+  border:2px solid var(--border);border-radius:16px;background:var(--control-background);color:var(--control-text);padding:14px 20px;font:inherit;font-weight:800;min-height:60px}
+.remote-select svg,.remote-text-field svg {width:24px;height:24px;flex-shrink:0}
+.remote-text-field {width:100%;text-align:left;font-size:20px;font-weight:600}
+.remote-text-field.is-empty {color:var(--text-muted)}
+.remote-select {min-width:125px}
+.remote-dialog-layer {z-index:120}
+.remote-options-dialog,.remote-keyboard-dialog {width:min(840px,86vw);max-height:90vh;overflow:auto;
+  padding:28px 36px;background:var(--surface);color:var(--text);border-radius:30px;box-shadow:0 20px 100px var(--shadow-dialog)}
+.remote-options-dialog header,.remote-keyboard-dialog header {display:flex;align-items:center;justify-content:space-between;gap:20px}
+.remote-options-dialog h2,.remote-keyboard-dialog h2 {font-size:30px;margin:0}
+.remote-options-dialog>p,.remote-keyboard-dialog>p {font-size:18px;color:var(--text-muted);margin:12px 0 22px}
+.remote-options {display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px;padding:10px}
+.remote-options button {min-height:64px;display:flex;align-items:center;justify-content:center;gap:8px;
+  background:var(--control-background);border-radius:15px;font-size:23px;font-weight:800}
+.remote-options button[aria-pressed="true"] {background:var(--control-selected);color:var(--accent-strong)}
+.remote-options button svg {width:20px;height:20px}
+.app .remote-pin-dialog {width:min(560px,78vw);max-height:94vh;overflow:auto;padding:24px 40px 30px}
+.remote-pin-dialog .pin-symbol {margin:0 auto 8px;width:52px;height:52px}
+.remote-pin-dialog h2 {font-size:28px;margin:6px 0 10px}
+.remote-pin-dialog>p {font-size:17px}
+.pin-digits {display:flex;justify-content:center;gap:0;margin:15px auto 4px;height:37px;font-size:27px;line-height:37px;color:var(--text-muted)}
+.pin-digits>span+span {margin-left:16px}
+.pin-digits .filled {color:var(--accent-strong)}
+.legacy-pin-length {display:flex;justify-content:center;margin:10px 0 4px}
+.legacy-pin-length .remote-select {min-height:44px;padding:7px 16px;font-size:18px}
+.remote-pin-dialog .pin-message {font-size:17px;min-height:24px;line-height:24px;margin:8px 0 16px}
+.app .remote-pin-dialog .pin-keypad {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;max-width:410px;margin:auto;padding:8px}
+.app .remote-pin-dialog .pin-keypad button {display:flex;align-items:center;justify-content:center;gap:7px;
+  height:clamp(54px,8.2vh,90px);font-size:32px;font-weight:900;border-radius:16px;background:var(--control-background);color:var(--control-text)}
+.remote-pin-dialog .pin-keypad button span {font-size:18px}
+.app .remote-pin-dialog .pin-keypad .key-confirm {background:var(--primary-background);color:var(--primary-text)}
+.app .remote-pin-dialog .pin-keypad button[data-remote-focused="true"] {background:var(--control-selected);color:var(--control-text);transform:scale(1.04)}
+.remote-text-preview {width:100%;box-sizing:border-box;padding:15px 18px;background:var(--surface);border:2px solid var(--border);
+  border-radius:15px;font:inherit;font-size:25px;margin-top:18px;color:var(--text)}
+.system-text-dialog{max-width:760px}
+.system-text-actions{display:flex;justify-content:flex-end;margin-top:28px}
+.system-text-actions>button+button{margin-left:16px}
+.text-input-error{color:var(--warning-text);font-size:16px;line-height:1.6;margin-top:8px}
+.remote-text-suggestions {display:flex;gap:16px;overflow-x:auto;padding:10px;margin-bottom:10px}
+.remote-text-suggestions button {background:var(--surface-hover);border-radius:12px;padding:12px 18px;white-space:nowrap;font-size:18px}
+.remote-letter-keys {display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:14px;padding:10px}
+.remote-letter-keys button {background:var(--surface-soft);border-radius:12px;font-size:25px;font-weight:800;min-height:52px}
+.remote-keyboard-actions {display:flex;gap:15px;justify-content:space-between;padding:15px 10px 8px}
+.remote-keyboard-actions button {display:flex;gap:6px;align-items:center;justify-content:center;min-height:52px;padding:10px 17px;
+  font-size:18px;background:var(--surface-soft);border-radius:12px}
+.remote-keyboard-actions button.primary {background:var(--primary-background);color:var(--primary-text)}
+.remote-keyboard-actions svg {width:22px;height:22px}
+@media(max-height:650px) {
+  .app .remote-pin-dialog {padding:14px 32px 20px}
+  .remote-pin-dialog .pin-symbol {display:none}
+  .remote-pin-dialog h2 {font-size:24px}
+  .remote-pin-dialog .pin-message {margin:6px 0 10px}
+  .app .remote-pin-dialog .pin-keypad {gap:12px}
+}

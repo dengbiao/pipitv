@@ -1,0 +1,32 @@
+# Dependencies and generated build files
+node_modules/
+dist/
+build/
+.gradle/
+__pycache__/
+*.py[cod]
+*.apk
+*.aab
+
+# Local configuration and credentials
+android/local.properties
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.secret
+*.keystore
+*.jks
+*.pem
+*.key
+.DS_Store
+
+# Keep only existing build/test inputs; omit local reports and source backups.
+/outputs/*
+!/outputs/qa/
+/outputs/qa/*
+!/outputs/qa/home-final.png
+!/outputs/qa/timer-test.mp4
+!/outputs/qa/game-resource-repair/
+/outputs/qa/game-resource-repair/*
+!/outputs/qa/game-resource-repair/catalog.json

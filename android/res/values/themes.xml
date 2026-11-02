@@ -1,0 +1,10 @@
+<resources>
+    <style name="PipiLauncherTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#CDD5C6</item>
+        <item name="android:colorAccent">#6D865B</item>
+    </style>
+    <style name="PipiPlayerTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:colorAccent">#6D865B</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+{
+  "revision": "usb-4A21-0000-flat-20261101-v2",
+  "entries": [
+    {
+      "id": "demo-animals",
+      "title": "古力小超人",
+      "subtitle": "英文动画",
+      "cover": "animals",
+      "mediaCover": true,
+      "path": "/storage/4A21-0000/1. 古力小超人视频"
+    },
+    {
+      "id": "demo-colors",
+      "title": "WOW English",
+      "subtitle": "英文学习内容",
+      "cover": "colors",
+      "mediaCover": true,
+      "path": "/storage/4A21-0000/Wow第1季学习打卡"
+    }
+  ]
+}

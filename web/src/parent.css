@@ -1,0 +1,206 @@
+/* Parent-space spacing is shared across tabs. Flex margins also work on Chromium 83. */
+.parent-page.page {
+  --parent-cover-width: clamp(112px, 11vw, 176px);
+  --parent-cover-height: clamp(63px, 6.1875vw, 99px);
+  --parent-space: clamp(24px, 2.4vw, 44px);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 0;
+  padding: clamp(28px, 3vw, 52px) clamp(32px, 5.5vw, 100px) clamp(24px, 2.5vw, 44px);
+  overflow: hidden;
+}
+.parent-page .page-header {
+  flex-shrink: 0;
+  gap: 0;
+  margin: 0 0 clamp(24px, 2.5vw, 44px);
+}
+.parent-page .page-header > .secondary { flex-shrink: 0; margin-left: 24px; }
+.parent-page h1 { font-size: clamp(30px, 3vw, 52px); line-height: 1.4; }
+.parent-page .eyebrow { font-size: clamp(10px, .8vw, 15px); line-height: 1.5; margin-bottom: 4px; }
+.parent-page .page-heading > .icon-button { margin-right: var(--parent-space); }
+.parent-page .icon-button { width: clamp(48px, 4.7vw, 64px); height: clamp(48px, 4.7vw, 64px); border-radius: 16px; }
+.parent-page .primary, .parent-page .secondary, .parent-page .text-button { gap: 0; font-size: clamp(16px, 1.35vw, 25px); line-height: 1.4; }
+.parent-page .primary, .parent-page .secondary { min-height: 52px; padding: 14px 22px; border-radius: 16px; }
+.parent-page .primary > svg, .parent-page .secondary > svg, .parent-page .text-button > svg { width: 24px; height: 24px; margin-right: 10px; }
+.parent-page .text-button > svg:last-child { margin-right: 0; margin-left: 10px; }
+.parent-page .parent-tabs { flex-shrink: 0; gap: 0; margin: 0 0 clamp(22px, 2vw, 36px); }
+.parent-page .parent-tabs button { gap: 0; padding: 12px 18px 16px; font-size: clamp(18px, 1.55vw, 28px); font-weight: 800; white-space: nowrap; }
+.parent-page .parent-tabs button + button { margin-left: clamp(12px, 1.5vw, 28px); }
+.parent-page .parent-tabs svg { width: 25px; height: 25px; margin-right: 12px; }
+.parent-content {
+  flex: 1;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 8px 8px 20px;
+  margin: -8px;
+  scroll-padding: 18px;
+  overscroll-behavior-y: contain;
+}
+.parent-page .section-heading { gap: 0; margin: 0 0 var(--parent-space); }
+.parent-page .section-heading > div { flex: 1; min-width: 0; }
+.parent-page .section-heading > button, .parent-page .section-heading > svg { flex-shrink: 0; margin-left: var(--parent-space); }
+.parent-page .section-heading > svg { width: 42px; height: 42px; color: var(--text-muted); }
+.parent-page .section-heading h2 { font-size: clamp(22px, 1.85vw, 34px); line-height: 1.45; margin-bottom: 6px; }
+.parent-page .section-heading p { font-size: clamp(15px, 1.2vw, 22px); line-height: 1.65; color: var(--text-muted); }
+
+/* Keep the artwork, text and actions in three clearly separated columns. */
+.parent-page .entry-row, .parent-page .statistics-row { gap: 0; padding: clamp(22px, 2vw, 34px) 4px; }
+.parent-page .entry-row > img, .parent-page .statistics-row > img {
+  display: block;
+  flex-shrink: 0;
+  width: var(--parent-cover-width);
+  height: var(--parent-cover-height);
+  margin-right: var(--parent-space);
+  border-radius: 12px;
+  object-fit: contain;
+  background: var(--sage);
+}
+.parent-page .entry-row-name { gap: 0; }
+.parent-page .entry-row-name, .parent-page .statistics-name { flex: 1; min-width: 0; margin-right: var(--parent-space); }
+.parent-page .entry-row-name strong, .parent-page .statistics-name > strong {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: clamp(21px, 1.8vw, 32px);
+  font-weight: 800;
+  line-height: 1.4;
+  overflow-wrap: break-word;
+}
+.parent-page .statistics-name > span { display: block; margin-top: 5px; font-size: clamp(15px, 1.15vw, 22px); line-height: 1.55; color: var(--text-muted); }
+.parent-page .entry-row-name > small { display: block; margin-top: 7px; font-size: clamp(12px, .95vw, 18px); line-height: 1.5; color: var(--text-muted); }
+.entry-row-actions, .game-setting-actions { display: flex; flex-shrink: 0; align-items: center; }
+.entry-row-actions > button + button { margin-left: 18px; }
+.parent-page .entry-row-name > .entry-content-count { color: var(--accent-strong); margin-top: 6px; }
+.parent-page .entry-is-hidden > img { opacity: .65; }
+.content-source-bar { display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 24px; }
+.content-source-switch { display: flex; align-items: center; flex-shrink: 0; padding: 4px; border-radius: 18px; background: var(--surface-soft); }
+.source-button { display: flex; align-items: center; min-height: 48px; padding: 12px 20px; border-radius: 14px; font-size: clamp(16px, 1.35vw, 25px); font-weight: 800; line-height: 1.4; color: var(--text); white-space: nowrap; }
+.source-button + .source-button { margin-left: 6px; }
+.source-button.selected { color: var(--control-text); background: var(--control-selected); }
+.source-button > svg { width: 24px; height: 24px; margin-right: 10px; flex-shrink: 0; }
+.catalog-controls { flex: 1; min-width: 0; margin-left: var(--parent-space); }
+.catalog-actions { display: flex; align-items: center; justify-content: flex-end; }
+.catalog-actions > button + button { margin-left: 16px; }
+.cleanup-trigger { flex-shrink: 0; margin-left: 16px; }
+.parent-page .entry-delete { color: var(--danger); }
+.cleanup-dialog { display: flex; flex-direction: column; }
+.cleanup-dialog h3 { margin: 24px 0 14px; font-size: clamp(20px, 1.6vw, 30px); }
+.cleanup-stale { display: flex; align-items: center; justify-content: space-between; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+.cleanup-stale > p { color: var(--text-muted); font-size: clamp(16px, 1.2vw, 22px); line-height: 1.7; margin-right: 24px; }
+.cleanup-stale > button { flex-shrink: 0; }
+.cleanup-list { overflow-y: auto; min-height: 80px; }
+.cleanup-row { display: flex; align-items: center; padding: 18px 4px; border-bottom: 1px solid var(--line); }
+.cleanup-row > div { flex: 1; min-width: 0; margin-right: 24px; }
+.cleanup-row strong { display: block; font-size: clamp(19px, 1.5vw, 28px); line-height: 1.5; }
+.cleanup-row small { display: block; margin-top: 8px; color: var(--text-muted); font-size: clamp(13px, 1vw, 18px); line-height: 1.6; overflow-wrap: break-word; }
+.cleanup-empty { padding: 18px 4px; color: var(--text-muted); font-size: 18px; }
+.cleanup-confirm { max-width: 760px; }
+.cleanup-confirm > h2 { margin-bottom: 18px; overflow-wrap: break-word; }
+.cleanup-confirm > footer { display: flex; justify-content: flex-end; margin-top: 24px; }
+.cleanup-confirm > footer > button + button { margin-left: 18px; }
+.cleanup-confirm .cleanup-preview { margin-top: 18px; }
+.source-status { color: var(--text-muted); font-size: clamp(14px, 1.1vw, 21px); line-height: 1.6; text-align: right; margin-top: 12px; overflow-wrap: break-word; }
+.entry-source { margin-top: 26px; padding: 20px; background: var(--surface-soft); border-radius: 16px; }
+.entry-source p { font-size: clamp(14px, 1.1vw, 21px); line-height: 1.7; overflow-wrap: break-word; }
+.entry-source small { display: block; margin-top: 8px; font-size: clamp(13px, 1vw, 19px); line-height: 1.6; color: var(--text-muted); }
+.scan-paths-dialog { width: min(1000px, 90vw); max-height: 90vh; overflow-y: auto; padding: 30px 36px; border-radius: 26px; background: var(--cream); }
+.scan-paths-dialog > header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; }
+.scan-paths-dialog h2 { font-size: clamp(26px, 2.2vw, 40px); line-height: 1.4; }
+.scan-paths-dialog > p { color: var(--text-muted); font-size: clamp(15px, 1.2vw, 22px); line-height: 1.75; }
+.scan-roots { margin-top: 22px; }
+.scan-root { display: flex; align-items: center; padding: 22px 4px; border-top: 1px solid var(--line); }
+.scan-root > div { min-width: 0; flex: 1; margin-right: 24px; }
+.scan-root strong { display: block; font-size: clamp(19px, 1.5vw, 28px); line-height: 1.5; }
+.scan-root span { display: block; font-size: clamp(14px, 1.1vw, 21px); overflow-wrap: break-word; line-height: 1.65; margin-top: 6px; }
+.scan-root small { display: block; font-size: clamp(13px, 1vw, 19px); line-height: 1.6; color: var(--text-muted); margin-top: 6px; }
+.scan-root > button { flex-shrink: 0; }
+.scan-paths-dialog > footer { display: flex; justify-content: flex-end; padding-top: 24px; }
+.scan-paths-dialog > footer > button + button { margin-left: 16px; }
+.parent-page .device-links { gap: 0; margin-top: 22px; font-size: clamp(13px, 1vw, 19px); }
+.parent-page .device-links > button { margin-left: 24px; }
+
+/* Use the same 16:9 cover and text spacing in the editor as in the entry list. */
+.parent-page .entry-editor { grid-template-columns: minmax(0, .85fr) minmax(0, 1.3fr); gap: clamp(32px, 4vw, 64px); padding: 4px; }
+.parent-page .entry-preview { position: sticky; top: 4px; border-radius: 20px; padding: 0 0 24px; background: var(--surface-soft); }
+.entry-preview-art { position: relative; height: 0; padding-bottom: 56.25%; overflow: hidden; border-radius: 20px; }
+.entry-preview-art > img { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; object-fit: contain; }
+.parent-page .entry-preview h2 { padding: 0 24px; margin-top: 24px; font-size: clamp(23px, 2.2vw, 38px); line-height: 1.4; }
+.parent-page .entry-preview p { padding: 0 24px; margin-top: 10px; font-size: clamp(15px, 1.3vw, 24px); line-height: 1.65; color: var(--text-muted); }
+.parent-page .editor-fields > label, .parent-page .field-label { font-size: clamp(18px, 1.4vw, 26px); line-height: 1.5; margin-bottom: 12px; }
+.parent-page .editor-fields > label { margin-bottom: 22px; }
+.parent-page .remote-text-field { margin-top: 9px; min-width: 0; }
+.parent-page .remote-text-field > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.parent-page .remote-select, .parent-page .remote-text-field { gap: 0; min-height: 54px; font-size: clamp(16px, 1.3vw, 24px); }
+.parent-page .remote-select > svg, .parent-page .remote-text-field > svg { margin-left: 18px; }
+.parent-page .content-select { gap: 0; padding: 18px 20px; }
+.parent-page .content-select > svg:first-child { margin-right: 18px; }
+.parent-page .content-select > svg:last-child { margin-left: 18px; }
+.parent-page .cover-choices { gap: 0; padding: 4px; margin-left: -4px; }
+.parent-page .cover-choices > button { width: clamp(72px, 7vw, 100px); height: clamp(72px, 7vw, 100px); border-radius: 16px; }
+.parent-page .cover-choices > button + button { margin-left: 18px; }
+.parent-page .editor-actions { gap: 0; margin-top: 26px; }
+.parent-page .editor-actions > button + button { margin-left: 16px; }
+.parent-page .auto-cover-option p { font-size: clamp(14px, 1.1vw, 20px); }
+
+/* Consistent fields and explicit margins keep units and time ranges readable on TV. */
+.parent-page .timer-settings .section-heading { margin-bottom: 18px; }
+.parent-page .settings-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 24px; margin: 0 0 16px; }
+.parent-page .setting-field { display: flex; flex-wrap: wrap; align-items: center; min-width: 0; padding: 6px 20px; border: 1px solid var(--line); border-radius: 18px; background: var(--surface); }
+.parent-page .setting-copy { flex: 1 1 160px; min-width: 0; margin: 10px 20px 10px 0; }
+.parent-page .setting-hours .setting-copy { flex-basis: 120px; }
+.parent-page .setting-field label { font-size: clamp(20px, 1.6vw, 30px); line-height: 1.45; }
+.parent-page .setting-copy > span { display: block; font-size: clamp(14px, 1.05vw, 20px); line-height: 1.6; color: var(--text-muted); }
+.parent-page .number-setting, .parent-page .hour-range { flex: 0 0 auto; gap: 0; font-size: clamp(16px, 1.3vw, 24px); margin: 10px 0; }
+.parent-page .number-setting > * + *, .parent-page .hour-range > * + * { margin-left: 16px; }
+.parent-page .number-setting > .remote-select { width: 112px; min-width: 112px; padding: 12px 16px; }
+.parent-page .hour-range > * + * { margin-left: 10px; }
+.parent-page .hour-range > .remote-select { min-width: 0; padding: 12px 10px; }
+.parent-page .hour-range > .remote-select > svg { width: 18px; height: 18px; margin-left: 8px; }
+.parent-page .setting-toggle { padding: 16px 4px; }
+.parent-page .setting-toggle > div { margin-right: 24px; }
+.parent-page .setting-toggle strong { font-size: clamp(19px, 1.5vw, 28px); line-height: 1.5; }
+.parent-page .setting-toggle p { font-size: clamp(14px, 1.1vw, 21px); line-height: 1.6; }
+.parent-page .timer-summary { gap: 0; flex-wrap: wrap; padding: 16px 22px; margin: 10px 0 0; font-size: clamp(16px, 1.3vw, 24px); line-height: 1.6; }
+.parent-page .timer-summary > span + span { margin-left: 28px; }
+.parent-page .timer-summary > button { margin-left: auto; }
+
+.parent-page .statistics-overview { padding: 22px 28px; border-radius: 20px; }
+.parent-page .statistics-overview span { font-size: clamp(17px, 1.4vw, 26px); line-height: 1.6; }
+.parent-page .statistics-overview strong { font-size: clamp(30px, 2.8vw, 50px); margin-top: 8px; }
+.parent-page .statistics-explanation, .parent-page .statistics-footnote, .parent-page .game-parent-intro, .parent-page .game-parent-footnote { font-size: clamp(14px, 1.1vw, 21px); line-height: 1.75; color: var(--text-muted); margin: 18px 0 28px; }
+.parent-page .statistics-duration { min-width: 5em; text-align: right; font-size: clamp(18px, 1.6vw, 29px); line-height: 1.5; }
+.parent-page .statistics-row > .secondary { flex-shrink: 0; margin-left: var(--parent-space); }
+
+/* Vocabulary gets its own full-width line, clear of the settings and preview action. */
+.parent-page .game-setting-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; padding: 24px 4px; }
+.parent-page .game-setting-name { margin-right: var(--parent-space); }
+.parent-page .game-setting-name > strong { font-size: clamp(21px, 1.8vw, 32px); line-height: 1.4; }
+.parent-page .game-setting-name > p { font-size: clamp(14px, 1.05vw, 20px); line-height: 1.6; margin-top: 6px; }
+.game-setting-actions > .remote-select { min-width: 0; font-size: clamp(14px, 1.1vw, 21px); }
+.game-setting-actions > button + button { margin-left: 20px; }
+.parent-page .game-vocabulary { grid-column: 1 / -1; font-size: clamp(14px, 1.1vw, 20px); line-height: 1.85; color: var(--text-muted); margin-top: 18px; max-width: 100%; overflow-wrap: break-word; }
+
+@media (max-width: 1000px) {
+  .parent-page .page-header > .secondary { padding: 12px 16px; }
+  .parent-page .parent-tabs button { padding-left: 12px; padding-right: 12px; }
+  .parent-page .settings-grid { gap: 16px; }
+  .parent-page .setting-field { padding-left: 18px; padding-right: 18px; }
+}
+@media (max-width: 800px) {
+  .content-source-switch { margin-bottom: 16px; }
+  .content-source-bar > .catalog-controls, .content-source-bar > .baidu-settings { flex-basis: 100%; margin-left: 0; }
+  .parent-page.page { padding-left: 28px; padding-right: 28px; }
+  .parent-page .eyebrow { letter-spacing: .1em; }
+  .parent-page .primary, .parent-page .secondary { padding-left: 16px; padding-right: 16px; }
+  .parent-page .parent-tabs button { font-size: 17px; padding-left: 10px; padding-right: 10px; }
+  .parent-page .parent-tabs button + button { margin-left: 6px; }
+  .parent-page .parent-tabs svg { width: 22px; height: 22px; margin-right: 8px; }
+  .parent-page .entry-editor { grid-template-columns: minmax(0, .75fr) minmax(0, 1.3fr); gap: 26px; }
+  .parent-page .game-setting-row { grid-template-columns: minmax(0, 1fr); }
+  .game-setting-actions { margin-top: 16px; }
+  .parent-page .settings-grid { grid-template-columns: minmax(0, 1fr); }
+  .parent-page .timer-summary > button { margin-left: 0; margin-top: 10px; width: 100%; justify-content: flex-start; }
+}

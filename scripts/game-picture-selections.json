@@ -1,0 +1,674 @@
+[
+  {
+    "series": "guli",
+    "id": "hello",
+    "frameKey": "guli-hello-4",
+    "videoId": "7691bbf7de601a2eb2c5e5d6",
+    "seconds": 23.5,
+    "crop": [
+      0.61,
+      0.1,
+      0.96,
+      0.96
+    ],
+    "description": "The familiar lion waving hello in the playground."
+  },
+  {
+    "series": "guli",
+    "id": "frog",
+    "frameKey": "guli-frog-1",
+    "videoId": "ef5fd7a5962b16c606f94836",
+    "seconds": 37.6,
+    "crop": [
+      0.4,
+      0.25,
+      0.94,
+      0.96
+    ],
+    "description": "Sleeping frog with its leaf hat."
+  },
+  {
+    "series": "guli",
+    "id": "ears",
+    "frameKey": "guli-ears-final",
+    "videoId": "ab348b62e81b4013566328ff",
+    "seconds": 46,
+    "crop": [
+      0.43,
+      0,
+      0.84,
+      0.49
+    ],
+    "description": "The pink bunny showing both long ears in the bath."
+  },
+  {
+    "series": "guli",
+    "id": "nose",
+    "frameKey": "guli-nose-clean-2",
+    "videoId": "ab348b62e81b4013566328ff",
+    "seconds": 62,
+    "crop": [
+      0.62,
+      0.38,
+      0.88,
+      0.83
+    ],
+    "description": "The pink bunny face with its round nose."
+  },
+  {
+    "series": "guli",
+    "id": "feet",
+    "frameKey": "guli-feet-final",
+    "videoId": "ab348b62e81b4013566328ff",
+    "seconds": 75,
+    "crop": [
+      0.44,
+      0.52,
+      0.66,
+      0.81
+    ],
+    "description": "Both bunny feet above the bath bubbles."
+  },
+  {
+    "series": "guli",
+    "id": "playground",
+    "frameKey": "guli-playground-2",
+    "videoId": "513238f48d8bf662ff66a5fc",
+    "seconds": 79.24,
+    "crop": [
+      0.58,
+      0.04,
+      0.99,
+      0.84
+    ],
+    "description": "The slide and climbing frame from hide and seek."
+  },
+  {
+    "series": "guli",
+    "id": "bucket",
+    "frameKey": "guli-bucket-1",
+    "videoId": "32dc3c4865ab52e2a180f0c3",
+    "seconds": 57.92,
+    "crop": [
+      0.64,
+      0.52,
+      0.91,
+      0.96
+    ],
+    "description": "The green beach bucket being filled with sand."
+  },
+  {
+    "series": "guli",
+    "id": "scooter",
+    "frameKey": "guli-car-4",
+    "videoId": "3a3e682c7b3ed6c1ea5f8939",
+    "seconds": 36.5,
+    "crop": [
+      0.21,
+      0.015,
+      0.79,
+      1
+    ],
+    "description": "Monkey with the orange scooter and checkered flag."
+  },
+  {
+    "series": "guli",
+    "id": "bike",
+    "frameKey": "guli-bike-3",
+    "videoId": "3a3e682c7b3ed6c1ea5f8939",
+    "seconds": 26.4,
+    "crop": [
+      0.2,
+      0.03,
+      0.85,
+      0.99
+    ],
+    "description": "Bunny and duck riding their bicycle."
+  },
+  {
+    "series": "guli",
+    "id": "car",
+    "frameKey": "guli-car-2",
+    "videoId": "3a3e682c7b3ed6c1ea5f8939",
+    "seconds": 31.0,
+    "crop": [
+      0.24,
+      0.08,
+      0.9,
+      0.99
+    ],
+    "description": "Lion driving the blue car."
+  },
+  {
+    "series": "guli",
+    "id": "four-balloons",
+    "frameKey": "guli-balloons-final",
+    "videoId": "5eb61f91e22c2d49038f7ac0",
+    "seconds": 106,
+    "crop": [
+      0,
+      0.2,
+      1,
+      0.99
+    ],
+    "description": "Four birthday balloons: orange, pink, blue and green."
+  },
+  {
+    "series": "guli",
+    "id": "two-balloons",
+    "frameKey": "guli-balloons-final",
+    "videoId": "5eb61f91e22c2d49038f7ac0",
+    "seconds": 106,
+    "crop": [
+      0,
+      0.29,
+      0.27,
+      0.99
+    ],
+    "description": "Only the two balloons on the left of the birthday decoration."
+  },
+  {
+    "series": "guli",
+    "id": "one-balloon",
+    "frameKey": "guli-four-balloons-3",
+    "videoId": "5eb61f91e22c2d49038f7ac0",
+    "seconds": 45.4,
+    "crop": [
+      0.17,
+      0.16,
+      0.43,
+      0.53
+    ],
+    "description": "Only the inflated pink balloon at the bird beak."
+  },
+  {
+    "series": "guli",
+    "id": "cake",
+    "frameKey": "guli-cake-final",
+    "videoId": "5eb61f91e22c2d49038f7ac0",
+    "seconds": 174,
+    "crop": [
+      0.23,
+      0.01,
+      0.8,
+      0.98
+    ],
+    "description": "The finished birthday cake with candles."
+  },
+  {
+    "series": "guli",
+    "id": "apple",
+    "frameKey": "guli-apple-final",
+    "videoId": "3ea6d42c2b2a177c1d7ead53",
+    "seconds": 47.5,
+    "crop": [
+      0.65,
+      0.025,
+      0.84,
+      0.41
+    ],
+    "description": "The red apple held up beside monkey."
+  },
+  {
+    "series": "guli",
+    "id": "carrot",
+    "frameKey": "guli-carrot-final",
+    "videoId": "3ea6d42c2b2a177c1d7ead53",
+    "seconds": 102.5,
+    "crop": [
+      0.16,
+      0.11,
+      0.57,
+      0.89
+    ],
+    "description": "Duck holding a picked orange carrot."
+  },
+  {
+    "series": "guli",
+    "id": "nuts",
+    "frameKey": "guli-nuts-final",
+    "videoId": "3ea6d42c2b2a177c1d7ead53",
+    "seconds": 182.5,
+    "crop": [
+      0.25,
+      0.04,
+      0.77,
+      0.83
+    ],
+    "description": "The acorn cluster and leaves from the picking song."
+  },
+  {
+    "series": "guli",
+    "id": "star",
+    "frameKey": "guli-star-2",
+    "videoId": "504ca49bc07c2845534d4529",
+    "seconds": 140.5,
+    "crop": [
+      0.54,
+      0,
+      0.85,
+      0.55
+    ],
+    "description": "The large shining yellow star."
+  },
+  {
+    "series": "guli",
+    "id": "owl",
+    "frameKey": "guli-owl-1",
+    "videoId": "504ca49bc07c2845534d4529",
+    "seconds": 76.1,
+    "crop": [
+      0,
+      0.13,
+      0.14,
+      0.44
+    ],
+    "description": "The brown owl in the night tree."
+  },
+  {
+    "series": "guli",
+    "id": "bunny",
+    "frameKey": "guli-bunny-final",
+    "videoId": "66ebbaa933529208c181abad",
+    "seconds": 27.5,
+    "crop": [
+      0.22,
+      0,
+      0.59,
+      0.96
+    ],
+    "description": "The familiar pink bunny in the snow."
+  },
+  {
+    "series": "guli",
+    "id": "umbrella",
+    "frameKey": "guli-umbrella-0",
+    "videoId": "9587cf45391f8e150eb880b8",
+    "seconds": 79.08,
+    "crop": [
+      0.18,
+      0,
+      0.77,
+      0.98
+    ],
+    "description": "Monkey holding the open green umbrella in the rain."
+  },
+  {
+    "series": "guli",
+    "id": "cook",
+    "frameKey": "guli-cook-1",
+    "videoId": "f9ea817b09bafe3c1ebc87fd",
+    "seconds": 60.6,
+    "crop": [
+      0.48,
+      0.01,
+      0.95,
+      0.88
+    ],
+    "description": "Duck dressed as a cook, holding the mixing bowl."
+  },
+  {
+    "series": "wow",
+    "id": "hello",
+    "frameKey": "wow-walk-0",
+    "videoId": "6165021fd1443ce75721df18",
+    "seconds": 34,
+    "crop": [
+      0.18,
+      0.06,
+      0.85,
+      0.9
+    ],
+    "description": "Steve waving hello to the boys and girls."
+  },
+  {
+    "series": "wow",
+    "id": "run",
+    "frameKey": "wow-run-2",
+    "videoId": "6165021fd1443ce75721df18",
+    "seconds": 202.54,
+    "crop": [
+      0.34,
+      0.1,
+      0.55,
+      0.88
+    ],
+    "description": "Steve running on the spot with bent arms."
+  },
+  {
+    "series": "wow",
+    "id": "walk",
+    "frameKey": "wow-walk-2",
+    "videoId": "6165021fd1443ce75721df18",
+    "seconds": 72,
+    "crop": [
+      0.35,
+      0.05,
+      0.6,
+      0.97
+    ],
+    "description": "Steve walking with one foot in front of the other."
+  },
+  {
+    "series": "wow",
+    "id": "red",
+    "frameKey": "wow-red-4",
+    "videoId": "446a7f09b6c113316ba4ebe2",
+    "seconds": 79.5,
+    "crop": [
+      0.16,
+      0.02,
+      0.39,
+      0.31
+    ],
+    "description": "The red fabric section of Maggie and Steve parachute."
+  },
+  {
+    "series": "wow",
+    "id": "green",
+    "frameKey": "wow-green-4",
+    "videoId": "446a7f09b6c113316ba4ebe2",
+    "seconds": 143.14,
+    "crop": [
+      0.28,
+      0.62,
+      0.53,
+      0.92
+    ],
+    "description": "The green fabric section of the same parachute."
+  },
+  {
+    "series": "wow",
+    "id": "yellow",
+    "frameKey": "wow-red-4",
+    "videoId": "446a7f09b6c113316ba4ebe2",
+    "seconds": 79.5,
+    "crop": [
+      0.47,
+      0,
+      0.81,
+      0.28
+    ],
+    "description": "The yellow fabric section of the same parachute."
+  },
+  {
+    "series": "wow",
+    "id": "house",
+    "frameKey": "wow-house-3",
+    "videoId": "e4fe5fd58904751448719c30",
+    "seconds": 240.38,
+    "crop": [
+      0.25,
+      0,
+      0.85,
+      0.78
+    ],
+    "description": "Steve yellow playhouse, including the complete red roof."
+  },
+  {
+    "series": "wow",
+    "id": "door",
+    "frameKey": "wow-sun-more-0",
+    "videoId": "5254201fd22930b8ad553a6a",
+    "seconds": 106,
+    "crop": [
+      0.76,
+      0,
+      1,
+      0.99
+    ],
+    "description": "The red playhouse door, cropped to the door."
+  },
+  {
+    "series": "wow",
+    "id": "tree",
+    "frameKey": "wow-tree-1",
+    "videoId": "5254201fd22930b8ad553a6a",
+    "seconds": 63.64,
+    "crop": [
+      0.23,
+      0.18,
+      0.46,
+      0.81
+    ],
+    "description": "The green tree Steve paints on the canvas."
+  },
+  {
+    "series": "wow",
+    "id": "sun",
+    "frameKey": "wow-sun-clean-2",
+    "videoId": "5254201fd22930b8ad553a6a",
+    "seconds": 122,
+    "crop": [
+      0.79,
+      0,
+      0.99,
+      0.43
+    ],
+    "description": "The big yellow sun in Steve painting."
+  },
+  {
+    "series": "wow",
+    "id": "flower",
+    "frameKey": "wow-flower-0",
+    "videoId": "5254201fd22930b8ad553a6a",
+    "seconds": 184,
+    "crop": [
+      0.13,
+      0.48,
+      0.42,
+      0.98
+    ],
+    "description": "The pink flower inside Steve painting."
+  },
+  {
+    "series": "wow",
+    "id": "car",
+    "frameKey": "wow-car-clean-2",
+    "videoId": "09fe9e13fbdf3b2f36448845",
+    "seconds": 39,
+    "crop": [
+      0.56,
+      0.14,
+      0.79,
+      0.44
+    ],
+    "description": "The yellow car drawing on the familiar whiteboard."
+  },
+  {
+    "series": "wow",
+    "id": "bike",
+    "frameKey": "wow-bike-0",
+    "videoId": "09fe9e13fbdf3b2f36448845",
+    "seconds": 23.0,
+    "crop": [
+      0.57,
+      0.1,
+      0.8,
+      0.48
+    ],
+    "description": "The bicycle drawing on the same whiteboard."
+  },
+  {
+    "series": "wow",
+    "id": "train",
+    "frameKey": "wow-train-1",
+    "videoId": "dd652b081babb5d5cfca6f3c",
+    "seconds": 203.08,
+    "crop": [
+      0.06,
+      0.16,
+      0.98,
+      0.86
+    ],
+    "description": "The bright toy train, with Steve in the engine."
+  },
+  {
+    "series": "wow",
+    "id": "arms",
+    "frameKey": "wow-arms-extra-0",
+    "videoId": "33f8c376b5451aec07e997df",
+    "seconds": 135,
+    "crop": [
+      0.24,
+      0.02,
+      0.9,
+      0.75
+    ],
+    "description": "The two floating arms from the body lesson."
+  },
+  {
+    "series": "wow",
+    "id": "legs",
+    "frameKey": "wow-legs-extra-0",
+    "videoId": "33f8c376b5451aec07e997df",
+    "seconds": 114,
+    "crop": [
+      0.24,
+      0.29,
+      0.51,
+      0.82
+    ],
+    "description": "The two jeans-clad legs from the same body lesson."
+  },
+  {
+    "series": "wow",
+    "id": "face",
+    "frameKey": "wow-face-1",
+    "videoId": "33f8c376b5451aec07e997df",
+    "seconds": 62,
+    "crop": [
+      0.29,
+      0.1,
+      0.71,
+      0.76
+    ],
+    "description": "Steve floating face in the body lesson."
+  },
+  {
+    "series": "wow",
+    "id": "apple",
+    "frameKey": "wow-apple-final",
+    "videoId": "5d11aec32eb6936c5db39014",
+    "seconds": 84,
+    "crop": [
+      0.45,
+      0.13,
+      0.77,
+      0.79
+    ],
+    "description": "The large red apple revealed by Maggie magic."
+  },
+  {
+    "series": "wow",
+    "id": "banana",
+    "frameKey": "wow-banana-1",
+    "videoId": "5d11aec32eb6936c5db39014",
+    "seconds": 160.36,
+    "crop": [
+      0.43,
+      0.07,
+      0.83,
+      0.79
+    ],
+    "description": "The large yellow banana from the food lesson."
+  },
+  {
+    "series": "wow",
+    "id": "orange",
+    "frameKey": "wow-orange-3",
+    "videoId": "5d11aec32eb6936c5db39014",
+    "seconds": 242.32,
+    "crop": [
+      0.43,
+      0.1,
+      0.77,
+      0.79
+    ],
+    "description": "The large orange from the same food lesson."
+  },
+  {
+    "series": "wow",
+    "id": "butterfly",
+    "frameKey": "wow-butterfly-0",
+    "videoId": "f4754a400ce3d2cb1397af43",
+    "seconds": 170.32,
+    "crop": [
+      0.61,
+      0.06,
+      0.91,
+      0.49
+    ],
+    "description": "The purple butterfly beside the garden tree."
+  },
+  {
+    "series": "wow",
+    "id": "bee",
+    "frameKey": "wow-bee-3",
+    "videoId": "0454e6cb8f3e7e88e80f14e4",
+    "seconds": 29.4,
+    "crop": [
+      0.65,
+      0.29,
+      0.94,
+      0.79
+    ],
+    "description": "The bee illustration in the original bugs introduction."
+  },
+  {
+    "series": "wow",
+    "id": "ladybird",
+    "frameKey": "wow-ladybird-1",
+    "videoId": "0454e6cb8f3e7e88e80f14e4",
+    "seconds": 177,
+    "crop": [
+      0.58,
+      0.24,
+      0.91,
+      0.73
+    ],
+    "description": "The large red ladybird by the pond."
+  },
+  {
+    "series": "wow",
+    "id": "happy",
+    "frameKey": "wow-happy-1",
+    "videoId": "89887dcd3ca12d1f415214ea",
+    "seconds": 77.32,
+    "crop": [
+      0.07,
+      0.17,
+      0.38,
+      0.76
+    ],
+    "description": "Steve smiling widely during the happy refrain."
+  },
+  {
+    "series": "wow",
+    "id": "sad",
+    "frameKey": "wow-sad-final",
+    "videoId": "89887dcd3ca12d1f415214ea",
+    "seconds": 42.5,
+    "crop": [
+      0.08,
+      0.17,
+      0.38,
+      0.73
+    ],
+    "description": "Steve making a sad face during the sad refrain."
+  },
+  {
+    "series": "wow",
+    "id": "okay",
+    "frameKey": "wow-okay-2",
+    "videoId": "89887dcd3ca12d1f415214ea",
+    "seconds": 25,
+    "crop": [
+      0.08,
+      0.17,
+      0.38,
+      0.73
+    ],
+    "description": "Steve with a relaxed face during the okay refrain."
+  }
+]

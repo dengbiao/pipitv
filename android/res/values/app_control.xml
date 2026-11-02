@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_control_label">PIPI 应用管控</string>
+    <string name="app_control_description">仅识别前台应用名称，让家长选中的应用遵守 PIPI KIDS 的每日时长、单次时长、休息和可用时段，到时返回休息页。不读取页面内容、输入文字或屏幕图片。未加入管控的应用不受这些规则限制。</string>
+</resources>

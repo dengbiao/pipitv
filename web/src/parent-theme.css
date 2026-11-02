@@ -1,0 +1,68 @@
+/* Original parent palette, before the shared-background trials.
+   Sources: outputs/qa/settings-background/before/styles.css and
+   outputs/qa/parent-layout-20261101/verified-source/web/src/remote-controls.css. */
+.parent-theme {
+  --page-background: #FCFBF6;
+  --surface: #FCFBF6;
+  --surface-soft: #EDF0E7;
+  --surface-hover: #E2E7D8;
+  --cover-placeholder: #F0F2E8;
+  --text: #43563E;
+  --text-muted: #7A8375;
+  --text-subtle: #87927E;
+  --border: #E2E6DB;
+
+  --control-background: #FFFEF8;
+  --control-hover: #E2E7D8;
+  --control-selected: #DCE9CE;
+  --control-disabled: #D1D4C5;
+  --control-text: #354B30;
+  --primary-background: #435F3B;
+  --primary-hover: #34522E;
+  --primary-text: #FFFFFF;
+  --sage-soft: #EDF1E7;
+  --accent: #658653;
+  --accent-strong: #345333;
+  --focus: #42653B;
+
+  --warning-surface: #F9E8D3;
+  --warning-text: #8F5C2E;
+  --danger: #AE7462;
+  --danger-surface: #F4ECE6;
+  --badge-surface: rgba(252, 251, 246, .93);
+  --scrim: rgba(36, 50, 29, .30);
+  --shadow-soft: rgba(28, 46, 23, .13);
+  --shadow-faint: rgba(28, 46, 23, .04);
+  --shadow-dialog: rgba(38, 49, 33, .25);
+
+  /* Rebind aliases in this scope so dialogs and borders use parent colors. */
+  --cream: var(--surface);
+  --ink: var(--text);
+  --deep: var(--accent-strong);
+  --sage: var(--sage-soft);
+  --line: var(--border);
+  --muted: var(--text-muted);
+  color: var(--text);
+}
+
+.view-parent.parent-theme { background: var(--page-background); }
+.parent-theme .parent-tabs button { color: #92998A; }
+.parent-theme .parent-tabs button.selected { color: #345333; border-bottom-color: #45653B; }
+.parent-theme .eyebrow { color: #87927E; }
+.view-parent.parent-theme .entry-preview,
+.view-parent.parent-theme .entry-source { background: #F0F2E8; }
+.view-parent.parent-theme .statistics-overview,
+.view-parent.parent-theme .timer-summary { background: #EDF1E7; }
+.parent-theme .content-source-switch { background: #D5DDCA; }
+.parent-theme .source-button.selected { background: #F0F2E8; color: #3D5834; }
+.parent-theme .tv-app-toggle.is-selected { background: #DCE8D2; }
+.parent-theme .remote-select,
+.parent-theme .remote-text-field { border-color: #DCDED1; }
+.parent-theme .remote-options button { background: #EEEEE2; }
+.parent-theme .remote-options button[aria-pressed="true"] { background: #E0E9D8; color: #315632; }
+
+/* Restore the original keypad fill while retaining the current PIN behavior. */
+.app .parent-theme .remote-pin-dialog .pin-keypad button { background: #EEEEE2; color: #354B30; }
+.app .parent-theme .remote-pin-dialog .pin-keypad button[data-remote-focused="true"] { background: #315632; color: #FFFFFF; }
+.app .parent-theme .remote-pin-dialog .pin-keypad button[data-remote-focused="true"] svg { color: #FFFFFF; }
+.parent-theme .pin-digits .filled { color: #315632; }

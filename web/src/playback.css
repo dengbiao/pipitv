@@ -1,0 +1,70 @@
+/* Each series owns its mode; use a compact selector in the list header. */
+.home .series-slot{width:calc((100% - 5.6vw)/3);flex-shrink:0;scroll-snap-align:start}
+.home .series-slot+.series-slot{margin-left:2.8vw}
+.home .series-slot .entrance{width:100%;margin:0}
+/* Quiet secondary entrances sit beside the title and topics, outside the cover button. */
+.home .series-details{padding:1.3vw .15vw .65vw;min-width:0}
+.series-title-row{display:flex;align-items:center;min-width:0}
+.series-title-row>h2{flex:1;min-width:0}
+.series-title-row>.series-enter{flex-shrink:0;margin-left:.7vw}
+.home .series-details h2{font-size:clamp(20px,2.15vw,45px);line-height:1.25;letter-spacing:-.03vw;color:var(--text);font-weight:900;overflow-wrap:anywhere}
+.home .entrance:focus+.series-details h2,.home .entrance[data-tv-focus="true"]+.series-details h2{color:var(--accent-strong)}
+.series-summary-row{display:flex;align-items:center;min-width:0;margin-top:.5vw}
+.series-summary-row>p{flex:1;min-width:0;font-size:clamp(13px,1.28vw,27px);line-height:1.45;font-weight:600;color:var(--text-muted);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.series-enter,.series-game-entry{display:inline-flex;align-items:center;justify-content:center;min-height:32px;padding:.25em .5em;
+  border-radius:999px;color:var(--text-muted);font-size:clamp(14px,1.05vw,20px);line-height:1.5;font-weight:600;white-space:nowrap}
+.series-enter>svg{width:1em;height:1em;margin-left:.25em}
+.series-game-entry{flex-shrink:0;margin-left:auto;background:var(--control-background);color:var(--control-text)}
+.series-summary-row>p+.series-game-entry{margin-left:.7vw}
+.series-game-entry>svg{width:1.1em;height:1.1em;margin-right:.35em}
+.series-enter:hover,.series-enter:focus,.series-enter[data-tv-focus="true"],
+.series-game-entry:not(:disabled):hover,.series-game-entry:not(:disabled):focus,.series-game-entry[data-tv-focus="true"]{background:var(--control-hover);color:var(--accent-strong)}
+.series-game-entry:disabled{background:var(--control-disabled);color:var(--text-muted);opacity:1}
+.home .series-details .entry-kind{display:flex;align-items:center}
+.library-mode-picker{width:clamp(150px,13vw,230px);flex-shrink:0}
+.library-mode-picker .remote-select{-webkit-appearance:none;appearance:none;display:flex;align-items:center;justify-content:space-between;width:100%;height:48px;min-height:0;padding:0 18px;border:0;border-radius:999px;background:var(--control-background);font-size:clamp(16px,1.3vw,25px);font-weight:800;color:var(--accent-strong)}
+/* Keep the label on the pill's single background, including the TV WebView. */
+.library-mode-picker .remote-select>span{background:transparent;text-shadow:none}
+.library-mode-picker .remote-select>svg{width:18px;height:18px;flex-shrink:0;margin-left:12px}
+/* Match the homepage's sage controls without changing the fixed library layout. */
+.media-center .page-heading>.icon-button,.media-center .header-actions>.icon-button,
+.media-center .header-actions>.time-pill{background:var(--control-background);color:var(--accent-strong)}
+.media-center .page-heading>.icon-button:hover,.media-center .header-actions>.icon-button:hover,
+.library-mode-picker>.remote-select:hover{background:var(--control-hover)}
+.media-center .page-heading>.icon-button:focus,.media-center .header-actions>.icon-button:focus,
+.library-mode-picker>.remote-select:focus,
+.media-center .page-heading>.icon-button[data-tv-focus="true"],
+.media-center .header-actions>.icon-button[data-tv-focus="true"],
+.library-mode-picker>.remote-select[data-tv-focus="true"]{background:var(--control-hover)}
+.home .series-slot .entrance-label{padding-bottom:.65vw}
+.home .series-slot .entry-kind{margin-top:.55vw}
+.view-home .home .home-intro{margin-bottom:1.2vw}
+.view-home .home .entrances{padding-bottom:0}
+.view-home .home .remote-hint{position:static;margin-top:2.2vw}
+.view-home .home.has-tv-apps .remote-hint{margin-top:.5vw}
+.series-cover-time{position:absolute;top:.85vw;right:.85vw;display:inline-flex;align-items:center;max-width:calc(100% - 1.7vw);padding:.4vw .65vw;
+  border-radius:.55vw;background:var(--badge-surface);color:var(--accent-strong);font-size:clamp(11px,.9vw,18px);line-height:1.4;font-weight:600;
+  font-variant-numeric:tabular-nums;white-space:nowrap;pointer-events:none}
+.series-cover-time>svg{width:1.15em;height:1.15em;margin-right:.35em;flex-shrink:0}
+.series-cover-time>span{overflow:hidden;text-overflow:ellipsis}
+.entry-language-field{margin-bottom:25px}
+.entry-language-field .remote-select{width:100%}
+.statistics-overview{display:flex;align-items:center;justify-content:space-between;padding:2vw 2.5vw;background:var(--surface-soft);border-radius:24px;color:var(--accent-strong)}
+.statistics-overview span{display:block;font-size:clamp(18px,1.5vw,28px)}
+.statistics-overview strong{display:block;margin-top:.6vw;font-size:clamp(30px,3.2vw,60px);font-weight:900;line-height:1.4;font-variant-numeric:tabular-nums}
+.statistics-overview>svg{width:4vw;height:4vw;min-width:40px;min-height:40px;margin-left:20px}
+.statistics-explanation,.statistics-footnote{color:var(--text-muted);font-size:clamp(16px,1.2vw,23px);line-height:1.7;margin:1.2vw 0 2vw}
+.playback-statistics .section-heading{margin-top:2.5vw}
+.statistics-list{border-top:1px solid var(--line)}
+.statistics-row{display:flex;align-items:center;gap:1.5vw;padding:1.5vw .3vw;border-bottom:1px solid var(--line)}
+.statistics-row>img{width:7.5vw;aspect-ratio:16/9;object-fit:cover;border-radius:12px}
+.statistics-name{flex:1;min-width:0}
+.statistics-name>strong{display:block;font-size:clamp(22px,1.8vw,36px);overflow-wrap:anywhere}
+.statistics-name>span{display:block;margin-top:7px;font-size:clamp(14px,1.05vw,21px);color:var(--text-muted)}
+.statistics-duration{font-size:clamp(19px,1.6vw,32px);color:var(--accent-strong);white-space:nowrap;font-variant-numeric:tabular-nums}
+.statistics-row .secondary{margin-left:1vw}
+.reset-stats-dialog{width:min(700px,90vw);background:var(--cream);padding:40px;border-radius:30px;box-shadow:0 20px 90px var(--shadow-soft)}
+.reset-stats-dialog h2{font-size:clamp(24px,2vw,38px);line-height:1.5;overflow-wrap:anywhere}
+.reset-stats-dialog p{font-size:clamp(17px,1.3vw,24px);line-height:1.8;margin:20px 0 30px;color:var(--text-muted)}
+.reset-stats-dialog>div{display:flex;justify-content:flex-end;gap:18px}

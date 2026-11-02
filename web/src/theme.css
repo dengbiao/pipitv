@@ -1,0 +1,64 @@
+/* Sage base #B8C3AE blended 30% toward white, with soft coordinated controls. */
+:root,
+.child-theme {
+  --page-background: #CDD5C6;
+  --surface: #D6DECE;
+  --surface-soft: #D0DAC6;
+  --surface-hover: #C9D5BD;
+  --cover-placeholder: #C2CDB7;
+  --text: #2E3B29;
+  --text-muted: #44513C;
+  --text-subtle: #44513C;
+  --border: #ACBAA1;
+
+  --control-background: #D8E0D1;
+  --control-hover: #CBD7C2;
+  --control-selected: #C2D0B7;
+  --control-disabled: #D1D9CA;
+  --control-text: #35492E;
+  --primary-background: #BCCDAD;
+  --primary-hover: #B2C4A1;
+  --primary-text: #304529;
+  --sage-soft: #D0DAC6;
+  --accent: #6D865B;
+  --accent-strong: #405438;
+  --focus: #5D754E;
+
+  --sand-soft: #CFC0A1;
+  --sky-soft: #B9C9C2;
+  --gold: #A78A4F;
+  --warning-surface: #D1BD95;
+  --warning-text: #594221;
+  --danger: #7E3036;
+  --danger-surface: #CDB1A4;
+  --error-ring: #C33440;
+  --error-text: #8F2630;
+  --error-surface: #DEC4BA;
+
+  --badge-surface: rgba(214, 222, 206, .96);
+  --scrim: rgba(27, 37, 22, .38);
+  --shadow-soft: rgba(33, 48, 24, .10);
+  --shadow-faint: rgba(33, 48, 24, .04);
+  --shadow-dialog: rgba(33, 48, 24, .24);
+
+  /* Playback keeps its black media canvas and dim green-gray overlays. */
+  --player-panel: rgba(34, 43, 30, .96);
+  --player-selected: #3F5037;
+  --player-complete-start: #303E2A;
+  --player-complete-end: #20291D;
+  --player-control-text: #35492E;
+  --player-text: #D4DDC9;
+  --player-text-muted: #AFBBA5;
+  --player-playing: #C0D2AD;
+  --player-fallback: #8C9B81;
+  --player-scrollbar: #7D8F70;
+  --player-art: #131A10;
+
+  /* Shared roles used by existing controls and dialogs. */
+  --cream: var(--surface);
+  --ink: var(--text);
+  --deep: var(--accent-strong);
+  --sage: var(--sage-soft);
+  --line: var(--border);
+  --muted: var(--text-muted);
+}

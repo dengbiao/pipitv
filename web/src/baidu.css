@@ -1,0 +1,38 @@
+.baidu-settings { flex: 1; min-width: 0; margin-left: var(--parent-space, 24px); }
+.baidu-actions { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; }
+.baidu-actions > button + button { margin-left: 16px; }
+.baidu-settings.is-connected { min-width: 320px; }
+.baidu-settings.is-connected .baidu-actions { justify-content: flex-start; flex-wrap: nowrap; }
+.baidu-settings.is-connected .baidu-actions > button { flex-shrink: 0; }
+.baidu-connection-row { display: flex; align-items: center; min-width: 0; margin-top: 6px; }
+.baidu-connection-row > .baidu-selected-folder { flex: 1; min-width: 0; margin: 0 16px 0 0; font-size: clamp(12px, 1vw, 18px); line-height: 1.5; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.baidu-connection-row > button { flex-shrink: 0; margin-left: auto; }
+.baidu-error { font-size: clamp(15px, 1.2vw, 22px); color: var(--danger); margin-top: 12px; line-height: 1.7; text-align: right; }
+.baidu-dialog { display: flex; flex-direction: column; width: min(1000px, 90vw); max-height: 90vh; padding: 30px 36px; border-radius: 26px; background: var(--cream); color: var(--ink); overflow: auto; }
+.baidu-dialog > header { flex-shrink: 0; display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+.baidu-dialog > header > div { min-width: 0; margin-right: 24px; }
+.baidu-dialog h2 { font-size: clamp(25px, 2.2vw, 40px); line-height: 1.45; }
+.baidu-dialog h3 { font-size: clamp(22px, 1.8vw, 32px); line-height: 1.5; }
+.baidu-dialog p { font-size: clamp(16px, 1.25vw, 23px); line-height: 1.8; color: var(--text-muted); }
+.baidu-dialog small { font-size: clamp(14px, 1.05vw, 20px); line-height: 1.7; color: var(--text-muted); }
+.baidu-qr-body { display: flex; align-items: center; margin: 8px 0; }
+.baidu-qr { display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: clamp(190px, 22vw, 300px); height: clamp(190px, 22vw, 300px); margin-right: 36px; background: white; padding: 16px; border-radius: 16px; }
+.baidu-qr img { width: 100%; height: 100%; object-fit: contain; }
+.baidu-qr-body > div:last-child { min-width: 0; }
+.baidu-qr-body p { margin-top: 14px; }
+.baidu-user-code strong { margin-left: 12px; letter-spacing: .12em; color: var(--text); }
+.baidu-dialog .baidu-boundary { font-size: clamp(13px, 1vw, 19px); margin-top: 20px; }
+.baidu-dialog > footer { display: flex; justify-content: flex-end; flex-shrink: 0; padding-top: 24px; }
+.baidu-dialog > footer > button + button { margin-left: 18px; }
+.baidu-folder-list { overflow-y: auto; min-height: 80px; max-height: 43vh; margin: 16px -8px 0; padding: 8px; }
+.baidu-folder { display: flex; align-items: center; width: 100%; padding: 18px; min-height: 64px; text-align: left; border: 1px solid var(--line); border-radius: 14px; background: transparent; font: inherit; font-size: clamp(19px, 1.5vw, 28px); color: inherit; }
+.baidu-folder + .baidu-folder { margin-top: 12px; }
+.baidu-folder > svg { flex-shrink: 0; width: 28px; height: 28px; margin-right: 18px; }
+.baidu-folder > span { overflow-wrap: break-word; }
+.baidu-folder-dialog > header p { font-size: clamp(13px, 1vw, 19px); overflow-wrap: break-word; }
+.baidu-confirm { max-width: 720px; }
+.baidu-confirm > p { margin-top: 16px; }
+@media (max-width: 700px) {
+  .baidu-dialog { padding: 24px; }
+  .baidu-qr { margin-right: 24px; width: 180px; height: 180px; }
+}

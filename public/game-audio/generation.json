@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "voice": "Samantha",
+  "synthesisWordsPerMinute": 145,
+  "playbackSpeed": 0.85,
+  "wrongFeedbackPauseMs": 350,
+  "sampleRate": 44100,
+  "bitrate": 64000,
+  "channels": 1
+}

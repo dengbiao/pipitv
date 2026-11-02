@@ -1,0 +1,421 @@
+{
+  "version": 2,
+  "source": "TV USB",
+  "device": "192.168.1.5:5555",
+  "capturedAt": "2026-11-01T15:01:39.961733+08:00",
+  "entries": [
+    {
+      "id": "demo-animals",
+      "title": "古力小超人",
+      "subtitle": "英文动画",
+      "cover": "animals",
+      "mediaCover": true,
+      "path": "/storage/4A21-0000/1. 古力小超人视频",
+      "kind": "folder",
+      "demo": false,
+      "lastPlayedPath": "/storage/4A21-0000/1. 古力小超人视频/古力小超人 10 Follow Me.mp4",
+      "lastPlayedAt": 1793515688401
+    },
+    {
+      "id": "demo-colors",
+      "title": "WOW English",
+      "subtitle": "英文学习内容",
+      "cover": "colors",
+      "mediaCover": true,
+      "path": "/storage/4A21-0000/Wow第1季学习打卡",
+      "kind": "folder",
+      "demo": false,
+      "lastPlayedPath": "/storage/4A21-0000/Wow第1季学习打卡/004.Wow!Yellow Unit 2 colour video_story.mp4",
+      "lastPlayedAt": 1793514354637
+    }
+  ],
+  "files": [
+    {
+      "id": "7691bbf7de601a2eb2c5e5d6",
+      "path": "/storage/4A21-0000/1. 古力小超人视频/古力小超人 01 Hello.mp4",
+      "name": "古力小超人 01 Hello.mp4",
+      "kind": "video",
+      "size": 22886623,
+      "preview": true,
+      "src": "/__tv-preview/media/7691bbf7de601a2eb2c5e5d6"
+    },
+    {
+      "id": "ef5fd7a5962b16c606f94836",
+      "path": "/storage/4A21-0000/1. 古力小超人视频/古力小超人 02 wake up.mp4",
+      "name": "古力小超人 02 wake up.mp4",
+      "kind": "video",
+      "size": 30029549,
+      "preview": true,
+      "src": "/__tv-preview/media/ef5fd7a5962b16c606f94836"
+    },
+    {
+      "id": "ab348b62e81b4013566328ff",
+      "path": "/storage/4A21-0000/1. 古力小超人视频/古力小超人 03 Scrub,Scrub,Scrub.mp4",
+      "name": "古力小超人 03 Scrub,Scrub,Scrub.mp4",
+      "kind": "video",
+      "size": 23733921,
+      "preview": true,
+      "src": "/__tv-preview/media/ab348b62e81b4013566328ff"
+    },
+    {
+      "id": "513238f48d8bf662ff66a5fc",
+      "path": "/storage/4A21-0000/1. 古力小超人视频/古力小超人 04 Hide and Seek.mp4",
+      "name": "古力小超人 04 Hide and Seek.mp4",
+      "kind": "video",
+      "size": 25219205,
+      "preview": true,
+      "src": "/__tv-preview/media/513238f48d8bf662ff66a5fc"
+    },
+    {
+      "id": "32dc3c4865ab52e2a180f0c3",
+      "path": "/storage/4A21-0000/1. 古力小超人视频/古力小超人 05 Pat,Pat,Pat.mp4",
+      "name": "古力小超人 05 Pat,Pat,Pat.mp4",
+      "kind": "video",
+      "size": 21091846,
+      "preview": true,
+      "src": "/__tv-preview/media/32dc3c4865ab52e2a180f0c3"
+    },
+    {
+      "id": "3a3e682c7b3ed6c1ea5f8939",
+      "path": "/storage/4A21-0000/1. 古力小超人视频/古力小超人 06 Ready,Go!.mp4",
+      "name": "古力小超人 06 Ready,Go!.mp4",
+      "kind": "video",
+      "size": 19646797,
+      "preview": true,
+      "src": "/__tv-preview/media/3a3e682c7b3ed6c1ea5f8939"
+    },
+    {
+      "id": "5eb61f91e22c2d49038f7ac0",
+      "path": "/storage/4A21-0000/1. 古力小超人视频/古力小超人 07 The Birthday Party.mp4",
+      "name": "古力小超人 07 The Birthday Party.mp4",
+      "kind": "video",
+      "size": 24492909,
+      "preview": true,
+      "src": "/__tv-preview/media/5eb61f91e22c2d49038f7ac0"
+    },
+    {
+      "id": "3ea6d42c2b2a177c1d7ead53",
+      "path": "/storage/4A21-0000/1. 古力小超人视频/古力小超人 08 Yum-Yum.mp4",
+      "name": "古力小超人 08 Yum-Yum.mp4",
+      "kind": "video",
+      "size": 24738988,
+      "preview": true,
+      "src": "/__tv-preview/media/3ea6d42c2b2a177c1d7ead53"
+    },
+    {
+      "id": "504ca49bc07c2845534d4529",
+      "path": "/storage/4A21-0000/1. 古力小超人视频/古力小超人 09 Go Away，Shadow.mp4",
+      "name": "古力小超人 09 Go Away，Shadow.mp4",
+      "kind": "video",
+      "size": 21274728,
+      "preview": true,
+      "src": "/__tv-preview/media/504ca49bc07c2845534d4529"
+    },
+    {
+      "id": "66ebbaa933529208c181abad",
+      "path": "/storage/4A21-0000/1. 古力小超人视频/古力小超人 10 Follow Me.mp4",
+      "name": "古力小超人 10 Follow Me.mp4",
+      "kind": "video",
+      "size": 22695464,
+      "preview": true,
+      "src": "/__tv-preview/media/66ebbaa933529208c181abad"
+    },
+    {
+      "id": "9587cf45391f8e150eb880b8",
+      "path": "/storage/4A21-0000/1. 古力小超人视频/古力小超人 11 The Rainy Day.mp4",
+      "name": "古力小超人 11 The Rainy Day.mp4",
+      "kind": "video",
+      "size": 22045344,
+      "preview": true,
+      "src": "/__tv-preview/media/9587cf45391f8e150eb880b8"
+    },
+    {
+      "id": "f9ea817b09bafe3c1ebc87fd",
+      "path": "/storage/4A21-0000/1. 古力小超人视频/古力小超人 12 Who are You.mp4",
+      "name": "古力小超人 12 Who are You.mp4",
+      "kind": "video",
+      "size": 23205058,
+      "preview": true,
+      "src": "/__tv-preview/media/f9ea817b09bafe3c1ebc87fd"
+    },
+    {
+      "id": "6165021fd1443ce75721df18",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/001.Wow!Yellow Unit 1 hello video_story.mp4",
+      "name": "001.Wow!Yellow Unit 1 hello video_story.mp4",
+      "kind": "video",
+      "size": 83078443,
+      "preview": true,
+      "src": "/__tv-preview/media/6165021fd1443ce75721df18"
+    },
+    {
+      "id": "0ed077dcd793df44f9c9e769",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/002.Wow!Yellow Unit 1 hello video_song1.mp4",
+      "name": "002.Wow!Yellow Unit 1 hello video_song1.mp4",
+      "kind": "video",
+      "size": 40837147,
+      "preview": true,
+      "src": "/__tv-preview/media/0ed077dcd793df44f9c9e769"
+    },
+    {
+      "id": "d0a665dc40c3dadda81dc9a9",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/003.Wow!Yellow Unit 1 hello video_song2.mp4",
+      "name": "003.Wow!Yellow Unit 1 hello video_song2.mp4",
+      "kind": "video",
+      "size": 34913554,
+      "preview": true,
+      "src": "/__tv-preview/media/d0a665dc40c3dadda81dc9a9"
+    },
+    {
+      "id": "446a7f09b6c113316ba4ebe2",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/004.Wow!Yellow Unit 2 colour video_story.mp4",
+      "name": "004.Wow!Yellow Unit 2 colour video_story.mp4",
+      "kind": "video",
+      "size": 85592709,
+      "preview": true,
+      "src": "/__tv-preview/media/446a7f09b6c113316ba4ebe2"
+    },
+    {
+      "id": "751a35b29b5e7b0265c24ebf",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/005.Wow!Yellow Unit 2 colour video_song.mp4",
+      "name": "005.Wow!Yellow Unit 2 colour video_song.mp4",
+      "kind": "video",
+      "size": 71226835,
+      "preview": true,
+      "src": "/__tv-preview/media/751a35b29b5e7b0265c24ebf"
+    },
+    {
+      "id": "e4fe5fd58904751448719c30",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/006.Wow!Yellow Unit 3 garden - part 1 video_story.mp4",
+      "name": "006.Wow!Yellow Unit 3 garden - part 1 video_story.mp4",
+      "kind": "video",
+      "size": 91988284,
+      "preview": true,
+      "src": "/__tv-preview/media/e4fe5fd58904751448719c30"
+    },
+    {
+      "id": "ea41704ec6b1c97657dc1a51",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/007.Wow!Yellow Unit 3 garden - part 1 video_song.mp4",
+      "name": "007.Wow!Yellow Unit 3 garden - part 1 video_song.mp4",
+      "kind": "video",
+      "size": 27743525,
+      "preview": true,
+      "src": "/__tv-preview/media/ea41704ec6b1c97657dc1a51"
+    },
+    {
+      "id": "5254201fd22930b8ad553a6a",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/008.Wow!Yellow Unit 3 garden - part 2 video_story.mp4",
+      "name": "008.Wow!Yellow Unit 3 garden - part 2 video_story.mp4",
+      "kind": "video",
+      "size": 104743329,
+      "preview": true,
+      "src": "/__tv-preview/media/5254201fd22930b8ad553a6a"
+    },
+    {
+      "id": "b3be97dd796ad9d3dabaf68b",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/009.Wow!Yellow Unit 3 garden - part 2 video_song.mp4",
+      "name": "009.Wow!Yellow Unit 3 garden - part 2 video_song.mp4",
+      "kind": "video",
+      "size": 28017108,
+      "preview": true,
+      "src": "/__tv-preview/media/b3be97dd796ad9d3dabaf68b"
+    },
+    {
+      "id": "dd652b081babb5d5cfca6f3c",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/010.Wow!Yellow Unit 4 toys- part 1 video_story.mp4",
+      "name": "010.Wow!Yellow Unit 4 toys- part 1 video_story.mp4",
+      "kind": "video",
+      "size": 100030891,
+      "preview": true,
+      "src": "/__tv-preview/media/dd652b081babb5d5cfca6f3c"
+    },
+    {
+      "id": "09fe9e13fbdf3b2f36448845",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/011.Wow!Yellow Unit 4 toys- part 1 video_song.mp4",
+      "name": "011.Wow!Yellow Unit 4 toys- part 1 video_song.mp4",
+      "kind": "video",
+      "size": 29186390,
+      "preview": true,
+      "src": "/__tv-preview/media/09fe9e13fbdf3b2f36448845"
+    },
+    {
+      "id": "96e476163f7e4b7b2cb90ee4",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/012.Wow!Yellow Unit 4 'toys' - part 2 video_story.mp4",
+      "name": "012.Wow!Yellow Unit 4 'toys' - part 2 video_story.mp4",
+      "kind": "video",
+      "size": 118137115,
+      "preview": true,
+      "src": "/__tv-preview/media/96e476163f7e4b7b2cb90ee4"
+    },
+    {
+      "id": "1b5bc17466bcc2d3740bf572",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/013.Wow!Yellow Unit 4 'toys' - part 2 video_song.mp4",
+      "name": "013.Wow!Yellow Unit 4 'toys' - part 2 video_song.mp4",
+      "kind": "video",
+      "size": 33636113,
+      "preview": true,
+      "src": "/__tv-preview/media/1b5bc17466bcc2d3740bf572"
+    },
+    {
+      "id": "33f8c376b5451aec07e997df",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/014.Wow!Yellow Unit 5 'body' - part 1 video_story.mp4",
+      "name": "014.Wow!Yellow Unit 5 'body' - part 1 video_story.mp4",
+      "kind": "video",
+      "size": 88791899,
+      "preview": true,
+      "src": "/__tv-preview/media/33f8c376b5451aec07e997df"
+    },
+    {
+      "id": "c31489b44d81948f5e2c80cc",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/015.Wow!Yellow Unit 5 'body' - part 1 video_song.mp4",
+      "name": "015.Wow!Yellow Unit 5 'body' - part 1 video_song.mp4",
+      "kind": "video",
+      "size": 44269908,
+      "preview": true,
+      "src": "/__tv-preview/media/c31489b44d81948f5e2c80cc"
+    },
+    {
+      "id": "5c4193f81a795e92f996f65a",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/016.Wow!Yellow Unit 5 'body' - part 2 video_story.mp4",
+      "name": "016.Wow!Yellow Unit 5 'body' - part 2 video_story.mp4",
+      "kind": "video",
+      "size": 100059326,
+      "preview": true,
+      "src": "/__tv-preview/media/5c4193f81a795e92f996f65a"
+    },
+    {
+      "id": "3db283e4f1fb5ae74344d7e6",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/017.Wow!Yellow Unit 5 'body' - part 2 video_song.mp4",
+      "name": "017.Wow!Yellow Unit 5 'body' - part 2 video_song.mp4",
+      "kind": "video",
+      "size": 43398748,
+      "preview": true,
+      "src": "/__tv-preview/media/3db283e4f1fb5ae74344d7e6"
+    },
+    {
+      "id": "5d11aec32eb6936c5db39014",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/018.Wow!Yellow Unit 6 'food' - part 1 video_story.mp4",
+      "name": "018.Wow!Yellow Unit 6 'food' - part 1 video_story.mp4",
+      "kind": "video",
+      "size": 142911603,
+      "preview": true,
+      "src": "/__tv-preview/media/5d11aec32eb6936c5db39014"
+    },
+    {
+      "id": "61f89d6a4e89c0ae13961ea4",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/019.Wow!Yellow Unit 6 'food' - part 1 video_song.mp4",
+      "name": "019.Wow!Yellow Unit 6 'food' - part 1 video_song.mp4",
+      "kind": "video",
+      "size": 89258771,
+      "preview": true,
+      "src": "/__tv-preview/media/61f89d6a4e89c0ae13961ea4"
+    },
+    {
+      "id": "7b3cf7bb68d658551cafd4aa",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/020.Wow!Yellow Unit 6 'food' - part 2 video_story_6_2.mp4",
+      "name": "020.Wow!Yellow Unit 6 'food' - part 2 video_story_6_2.mp4",
+      "kind": "video",
+      "size": 111405710,
+      "preview": true,
+      "src": "/__tv-preview/media/7b3cf7bb68d658551cafd4aa"
+    },
+    {
+      "id": "ea2c5e3241b60bba6847efa9",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/021.Wow!Yellow Unit 6 'food' - part 2 video_song_6_2.mp4",
+      "name": "021.Wow!Yellow Unit 6 'food' - part 2 video_song_6_2.mp4",
+      "kind": "video",
+      "size": 80070435,
+      "preview": true,
+      "src": "/__tv-preview/media/ea2c5e3241b60bba6847efa9"
+    },
+    {
+      "id": "0454e6cb8f3e7e88e80f14e4",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/022.Wow!Yellow Unit 7 'bugs' - part 1 video_story_7_1.mp4",
+      "name": "022.Wow!Yellow Unit 7 'bugs' - part 1 video_story_7_1.mp4",
+      "kind": "video",
+      "size": 113296598,
+      "preview": true,
+      "src": "/__tv-preview/media/0454e6cb8f3e7e88e80f14e4"
+    },
+    {
+      "id": "a09a04dfee2f4099cd695c06",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/023.Wow!Yellow Unit 7 'bugs' - part 1 video_song_7_1.mp4",
+      "name": "023.Wow!Yellow Unit 7 'bugs' - part 1 video_song_7_1.mp4",
+      "kind": "video",
+      "size": 36301549,
+      "preview": true,
+      "src": "/__tv-preview/media/a09a04dfee2f4099cd695c06"
+    },
+    {
+      "id": "f4754a400ce3d2cb1397af43",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/024.Wow!Yellow Unit 7 bugs - part 2 video_story_7_2.mp4",
+      "name": "024.Wow!Yellow Unit 7 bugs - part 2 video_story_7_2.mp4",
+      "kind": "video",
+      "size": 115005464,
+      "preview": true,
+      "src": "/__tv-preview/media/f4754a400ce3d2cb1397af43"
+    },
+    {
+      "id": "ec667d39299a1dabd3d76d89",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/025.Wow!Yellow Unit 7 bugs - part 2 video_song_7_2.mp4",
+      "name": "025.Wow!Yellow Unit 7 bugs - part 2 video_song_7_2.mp4",
+      "kind": "video",
+      "size": 34273586,
+      "preview": true,
+      "src": "/__tv-preview/media/ec667d39299a1dabd3d76d89"
+    },
+    {
+      "id": "89887dcd3ca12d1f415214ea",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/027.Wow!Yellow Unit 8 'feelings' - part 1 video_song_8_1.mp4",
+      "name": "027.Wow!Yellow Unit 8 'feelings' - part 1 video_song_8_1.mp4",
+      "kind": "video",
+      "size": 37869975,
+      "preview": true,
+      "src": "/__tv-preview/media/89887dcd3ca12d1f415214ea"
+    },
+    {
+      "id": "3ed4b774a395e4e3def18c82",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/Wow English 第一季第1周高频词.pdf",
+      "name": "Wow English 第一季第1周高频词.pdf",
+      "kind": "pdf",
+      "size": 57523,
+      "preview": true,
+      "src": "/__tv-preview/media/3ed4b774a395e4e3def18c82"
+    },
+    {
+      "id": "f643efdcf9b28026f1dcc6c8",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/Wow English 第一季第二周高频词.pdf",
+      "name": "Wow English 第一季第二周高频词.pdf",
+      "kind": "pdf",
+      "size": 44355,
+      "preview": true,
+      "src": "/__tv-preview/media/f643efdcf9b28026f1dcc6c8"
+    },
+    {
+      "id": "34aff37dfef096bbe979f272",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/Wow English 第一季（计划表）.pdf",
+      "name": "Wow English 第一季（计划表）.pdf",
+      "kind": "pdf",
+      "size": 36752,
+      "preview": true,
+      "src": "/__tv-preview/media/34aff37dfef096bbe979f272"
+    },
+    {
+      "id": "f3e54d952c00de78e2b9f921",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/Wow English第一季第四周复盘-1.pdf",
+      "name": "Wow English第一季第四周复盘-1.pdf",
+      "kind": "pdf",
+      "size": 519185,
+      "preview": true,
+      "src": "/__tv-preview/media/f3e54d952c00de78e2b9f921"
+    },
+    {
+      "id": "d285da704218d461222cb58d",
+      "path": "/storage/4A21-0000/Wow第1季学习打卡/Wow english第一季第三周高频词.pdf",
+      "name": "Wow english第一季第三周高频词.pdf",
+      "kind": "pdf",
+      "size": 481761,
+      "preview": true,
+      "src": "/__tv-preview/media/d285da704218d461222cb58d"
+    }
+  ]
+}

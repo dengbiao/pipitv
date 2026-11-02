@@ -1,0 +1,2809 @@
+{
+  "pictures": {
+    "cat": "Cat",
+    "dog": "Dog",
+    "bird": "Bird",
+    "rabbit": "Rabbit",
+    "apple": "Apple",
+    "banana": "Banana",
+    "orange": "Orange",
+    "ball": "Ball",
+    "car": "Car",
+    "teddy": "Teddy bear",
+    "butterfly": "Butterfly",
+    "bee": "Bee",
+    "flower": "Flower",
+    "eye": "Eye",
+    "ear": "Ear",
+    "hand": "Hand",
+    "hello": "Hello!",
+    "sleep": "Go to bed",
+    "cake": "Cake",
+    "rain": "Rain",
+    "sun": "Sun",
+    "bath": "Wash",
+    "run": "Run!",
+    "clap": "Clap your hands",
+    "red": "Red",
+    "blue": "Blue",
+    "yellow": "Yellow",
+    "green": "Green",
+    "happy": "Happy",
+    "sad": "Sad",
+    "frog": "Frog",
+    "ears": "Ears",
+    "nose": "Nose",
+    "feet": "Feet",
+    "playground": "Playground",
+    "bucket": "Bucket",
+    "scooter": "Scooter",
+    "bike": "Bike",
+    "four-balloons": "Four balloons",
+    "two-balloons": "Two balloons",
+    "one-balloon": "One balloon",
+    "carrot": "Carrot",
+    "nuts": "Nuts",
+    "star": "Star",
+    "owl": "Owl",
+    "bunny": "Bunny",
+    "umbrella": "Umbrella",
+    "cook": "Cook",
+    "walk": "Walk",
+    "house": "House",
+    "door": "Door",
+    "window": "Window",
+    "tree": "Tree",
+    "train": "Train",
+    "arms": "Arms",
+    "legs": "Legs",
+    "ladybird": "Ladybird",
+    "balloon": "Balloon",
+    "face": "Face",
+    "okay": "Okay"
+  },
+  "questions": {
+    "where-cat": {
+      "answer": "cat",
+      "options": [
+        "cat",
+        "dog",
+        "rabbit"
+      ],
+      "prompt": "Where is the cat?",
+      "feedback": "Well done! It's a cat."
+    },
+    "where-dog": {
+      "answer": "dog",
+      "options": [
+        "cat",
+        "dog",
+        "bird"
+      ],
+      "prompt": "Where is the dog?",
+      "feedback": "Well done! It's a dog."
+    },
+    "where-bird": {
+      "answer": "bird",
+      "options": [
+        "cat",
+        "bird",
+        "rabbit"
+      ],
+      "prompt": "Where is the bird?",
+      "feedback": "Well done! It's a bird."
+    },
+    "where-rabbit": {
+      "answer": "rabbit",
+      "options": [
+        "rabbit",
+        "dog",
+        "cat"
+      ],
+      "prompt": "Where is the rabbit?",
+      "feedback": "Well done! It's a rabbit."
+    },
+    "where-apple": {
+      "answer": "apple",
+      "options": [
+        "apple",
+        "banana",
+        "orange"
+      ],
+      "prompt": "Where is the apple?",
+      "feedback": "Well done! It's an apple."
+    },
+    "where-banana": {
+      "answer": "banana",
+      "options": [
+        "apple",
+        "banana",
+        "orange"
+      ],
+      "prompt": "Where is the banana?",
+      "feedback": "Well done! It's a banana."
+    },
+    "where-orange": {
+      "answer": "orange",
+      "options": [
+        "apple",
+        "banana",
+        "orange"
+      ],
+      "prompt": "Where is the orange?",
+      "feedback": "Well done! It's an orange."
+    },
+    "where-car": {
+      "answer": "car",
+      "options": [
+        "car",
+        "teddy",
+        "ball"
+      ],
+      "prompt": "Where is the car?",
+      "feedback": "Well done! It's a car."
+    },
+    "where-flower": {
+      "answer": "flower",
+      "options": [
+        "flower",
+        "sun",
+        "butterfly"
+      ],
+      "prompt": "Where is the flower?",
+      "feedback": "Well done! It's a flower."
+    },
+    "where-sun": {
+      "answer": "sun",
+      "options": [
+        "flower",
+        "sun",
+        "bee"
+      ],
+      "prompt": "Where is the sun?",
+      "feedback": "Well done! It's the sun."
+    },
+    "where-butterfly": {
+      "answer": "butterfly",
+      "options": [
+        "bee",
+        "butterfly",
+        "bird"
+      ],
+      "prompt": "Where is the butterfly?",
+      "feedback": "Well done! It's a butterfly."
+    },
+    "where-bee": {
+      "answer": "bee",
+      "options": [
+        "bee",
+        "butterfly",
+        "flower"
+      ],
+      "prompt": "Where is the bee?",
+      "feedback": "Well done! It's a bee."
+    },
+    "where-cake": {
+      "answer": "cake",
+      "options": [
+        "cake",
+        "apple",
+        "banana"
+      ],
+      "prompt": "Where is the cake?",
+      "feedback": "Well done! It's a cake."
+    },
+    "find-red": {
+      "answer": "red",
+      "options": [
+        "red",
+        "yellow",
+        "green"
+      ],
+      "prompt": "Which one is red?",
+      "feedback": "Well done! It's red."
+    },
+    "find-yellow": {
+      "answer": "yellow",
+      "options": [
+        "yellow",
+        "red",
+        "green"
+      ],
+      "prompt": "Which one is yellow?",
+      "feedback": "Well done! It's yellow."
+    },
+    "find-green": {
+      "answer": "green",
+      "options": [
+        "green",
+        "red",
+        "yellow"
+      ],
+      "prompt": "Which one is green?",
+      "feedback": "Well done! It's green."
+    },
+    "find-blue": {
+      "answer": "blue",
+      "options": [
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "prompt": "Which one is blue?",
+      "feedback": "Well done! It's blue."
+    },
+    "say-hello": {
+      "answer": "hello",
+      "options": [
+        "hello",
+        "sleep",
+        "run"
+      ],
+      "prompt": "Who is saying hello?",
+      "feedback": "Well done! Hello!"
+    },
+    "find-run": {
+      "answer": "run",
+      "options": [
+        "run",
+        "sleep",
+        "bath"
+      ],
+      "prompt": "Can you find \"Run\"?",
+      "feedback": "Well done! Run!"
+    },
+    "find-sleep": {
+      "answer": "sleep",
+      "options": [
+        "sleep",
+        "run",
+        "hello"
+      ],
+      "prompt": "Who is going to bed?",
+      "feedback": "Well done! Go to bed."
+    },
+    "find-clap": {
+      "answer": "clap",
+      "options": [
+        "clap",
+        "run",
+        "sleep"
+      ],
+      "prompt": "Can you find \"Clap your hands\"?",
+      "feedback": "Well done! Clap your hands!"
+    },
+    "find-wash": {
+      "answer": "bath",
+      "options": [
+        "bath",
+        "sleep",
+        "run"
+      ],
+      "prompt": "Who is washing?",
+      "feedback": "Well done! Wash, wash, wash!"
+    },
+    "find-rain": {
+      "answer": "rain",
+      "options": [
+        "rain",
+        "sun",
+        "flower"
+      ],
+      "prompt": "Where is the rain?",
+      "feedback": "Well done! It's raining!"
+    },
+    "find-happy": {
+      "answer": "happy",
+      "options": [
+        "happy",
+        "sad",
+        "sleep"
+      ],
+      "prompt": "Who is happy?",
+      "feedback": "Well done! Happy!"
+    },
+    "guli-hello": {
+      "answer": "hello",
+      "options": [
+        "hello",
+        "cook",
+        "bunny"
+      ],
+      "prompt": "Can you say hello?",
+      "feedback": "Well done! Hello!",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "7691bbf7de601a2eb2c5e5d6",
+          "video": "古力小超人 01 Hello.mp4",
+          "start": 18.0,
+          "end": 21.0,
+          "quote": "Hello."
+        },
+        "phrase": {
+          "videoId": "7691bbf7de601a2eb2c5e5d6",
+          "video": "古力小超人 01 Hello.mp4",
+          "start": 18.0,
+          "end": 21.0,
+          "quote": "Hello."
+        },
+        "originalPhrase": "Hello",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-frog": {
+      "answer": "frog",
+      "options": [
+        "frog",
+        "bunny",
+        "owl"
+      ],
+      "prompt": "What's that noise? Can you find the frog?",
+      "feedback": "Well done! It's a frog.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "ef5fd7a5962b16c606f94836",
+          "video": "古力小超人 02 wake up.mp4",
+          "start": 37.0,
+          "end": 51.64,
+          "quote": "Oh, the frogs are sleeping."
+        },
+        "phrase": {
+          "videoId": "ef5fd7a5962b16c606f94836",
+          "video": "古力小超人 02 wake up.mp4",
+          "start": 5.0,
+          "end": 7.0,
+          "quote": "What's that noise?"
+        },
+        "originalPhrase": "What's that noise",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-ears": {
+      "answer": "ears",
+      "options": [
+        "ears",
+        "nose",
+        "feet"
+      ],
+      "prompt": "Where are your ears?",
+      "feedback": "Well done! These are ears.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "ab348b62e81b4013566328ff",
+          "video": "古力小超人 03 Scrub,Scrub,Scrub.mp4",
+          "start": 32.0,
+          "end": 34.0,
+          "quote": "Where are your ears?"
+        },
+        "phrase": {
+          "videoId": "ab348b62e81b4013566328ff",
+          "video": "古力小超人 03 Scrub,Scrub,Scrub.mp4",
+          "start": 32.0,
+          "end": 34.0,
+          "quote": "Where are your ears?"
+        },
+        "originalPhrase": "Where are your ears",
+        "questionKind": "original-question"
+      }
+    },
+    "guli-nose": {
+      "answer": "nose",
+      "options": [
+        "nose",
+        "ears",
+        "feet"
+      ],
+      "prompt": "Where's your nose?",
+      "feedback": "Well done! It's a nose.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "ab348b62e81b4013566328ff",
+          "video": "古力小超人 03 Scrub,Scrub,Scrub.mp4",
+          "start": 49.0,
+          "end": 51.0,
+          "quote": "Where's your nose?"
+        },
+        "phrase": {
+          "videoId": "ab348b62e81b4013566328ff",
+          "video": "古力小超人 03 Scrub,Scrub,Scrub.mp4",
+          "start": 49.0,
+          "end": 51.0,
+          "quote": "Where's your nose?"
+        },
+        "originalPhrase": "Where's your nose",
+        "questionKind": "original-question"
+      }
+    },
+    "guli-feet": {
+      "answer": "feet",
+      "options": [
+        "feet",
+        "ears",
+        "nose"
+      ],
+      "prompt": "Where are your feet?",
+      "feedback": "Well done! These are feet.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "ab348b62e81b4013566328ff",
+          "video": "古力小超人 03 Scrub,Scrub,Scrub.mp4",
+          "start": 69.6,
+          "end": 72.3,
+          "quote": "Where are your feet?"
+        },
+        "phrase": {
+          "videoId": "ab348b62e81b4013566328ff",
+          "video": "古力小超人 03 Scrub,Scrub,Scrub.mp4",
+          "start": 69.6,
+          "end": 72.3,
+          "quote": "Where are your feet?"
+        },
+        "originalPhrase": "Where are your feet",
+        "questionKind": "original-question"
+      }
+    },
+    "guli-playground": {
+      "answer": "playground",
+      "options": [
+        "playground",
+        "umbrella",
+        "bucket"
+      ],
+      "prompt": "Can we play hide and seek in the playground?",
+      "feedback": "Well done! It's a playground.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "513238f48d8bf662ff66a5fc",
+          "video": "古力小超人 04 Hide and Seek.mp4",
+          "start": 78.24000000000001,
+          "end": 80.24000000000001,
+          "quote": "I'll hide in the playground!"
+        },
+        "phrase": {
+          "videoId": "513238f48d8bf662ff66a5fc",
+          "video": "古力小超人 04 Hide and Seek.mp4",
+          "start": 15.6,
+          "end": 18.400000000000002,
+          "quote": "Hide and seek."
+        },
+        "originalPhrase": "hide and seek",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-bucket": {
+      "answer": "bucket",
+      "options": [
+        "bucket",
+        "playground",
+        "cake"
+      ],
+      "prompt": "Can you fill the bucket?",
+      "feedback": "Well done! It's a bucket.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "32dc3c4865ab52e2a180f0c3",
+          "video": "古力小超人 05 Pat,Pat,Pat.mp4",
+          "start": 57.32,
+          "end": 58.68,
+          "quote": "Fill a bucket!"
+        },
+        "phrase": {
+          "videoId": "32dc3c4865ab52e2a180f0c3",
+          "video": "古力小超人 05 Pat,Pat,Pat.mp4",
+          "start": 57.32,
+          "end": 58.68,
+          "quote": "Fill a bucket!"
+        },
+        "originalPhrase": "Fill a bucket",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-scooter": {
+      "answer": "scooter",
+      "options": [
+        "scooter",
+        "bike",
+        "car"
+      ],
+      "prompt": "Can you ride the scooter?",
+      "feedback": "Well done! It's a scooter.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "3a3e682c7b3ed6c1ea5f8939",
+          "video": "古力小超人 06 Ready,Go!.mp4",
+          "start": 16.0,
+          "end": 20.0,
+          "quote": "I ride my scooter!"
+        },
+        "phrase": {
+          "videoId": "3a3e682c7b3ed6c1ea5f8939",
+          "video": "古力小超人 06 Ready,Go!.mp4",
+          "start": 16.0,
+          "end": 20.0,
+          "quote": "I ride my scooter!"
+        },
+        "originalPhrase": "ride my scooter",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-bike": {
+      "answer": "bike",
+      "options": [
+        "bike",
+        "scooter",
+        "car"
+      ],
+      "prompt": "Can you ride the bike?",
+      "feedback": "Well done! It's a bike.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "3a3e682c7b3ed6c1ea5f8939",
+          "video": "古力小超人 06 Ready,Go!.mp4",
+          "start": 23.0,
+          "end": 26.0,
+          "quote": "We ride our bike!"
+        },
+        "phrase": {
+          "videoId": "3a3e682c7b3ed6c1ea5f8939",
+          "video": "古力小超人 06 Ready,Go!.mp4",
+          "start": 23.0,
+          "end": 26.0,
+          "quote": "We ride our bike!"
+        },
+        "originalPhrase": "ride our bike",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-car": {
+      "answer": "car",
+      "options": [
+        "car",
+        "bike",
+        "scooter"
+      ],
+      "prompt": "Can you drive the car?",
+      "feedback": "Well done! It's a car.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "3a3e682c7b3ed6c1ea5f8939",
+          "video": "古力小超人 06 Ready,Go!.mp4",
+          "start": 28.0,
+          "end": 34.0,
+          "quote": "I drive my car."
+        },
+        "phrase": {
+          "videoId": "3a3e682c7b3ed6c1ea5f8939",
+          "video": "古力小超人 06 Ready,Go!.mp4",
+          "start": 28.0,
+          "end": 34.0,
+          "quote": "I drive my car."
+        },
+        "originalPhrase": "drive my car",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-four-balloons": {
+      "answer": "four-balloons",
+      "options": [
+        "four-balloons",
+        "two-balloons",
+        "one-balloon"
+      ],
+      "prompt": "How many balloons? Can you find four?",
+      "feedback": "Well done! Four balloons!",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "5eb61f91e22c2d49038f7ac0",
+          "video": "古力小超人 07 The Birthday Party.mp4",
+          "start": 43.0,
+          "end": 45.0,
+          "quote": "Four!"
+        },
+        "phrase": {
+          "videoId": "5eb61f91e22c2d49038f7ac0",
+          "video": "古力小超人 07 The Birthday Party.mp4",
+          "start": 40.0,
+          "end": 42.0,
+          "quote": "How many?"
+        },
+        "originalPhrase": "How many",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-cake": {
+      "answer": "cake",
+      "options": [
+        "cake",
+        "apple",
+        "carrot"
+      ],
+      "prompt": "Can we bake a cake?",
+      "feedback": "Well done! It's a cake.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "5eb61f91e22c2d49038f7ac0",
+          "video": "古力小超人 07 The Birthday Party.mp4",
+          "start": 146.0,
+          "end": 155.0,
+          "quote": "One, two, three, four, let's bake a cake."
+        },
+        "phrase": {
+          "videoId": "5eb61f91e22c2d49038f7ac0",
+          "video": "古力小超人 07 The Birthday Party.mp4",
+          "start": 146.0,
+          "end": 155.0,
+          "quote": "One, two, three, four, let's bake a cake."
+        },
+        "originalPhrase": "bake a cake",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-apple": {
+      "answer": "apple",
+      "options": [
+        "apple",
+        "carrot",
+        "nuts"
+      ],
+      "prompt": "Can you pick an apple?",
+      "feedback": "Well done! It's an apple.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "3ea6d42c2b2a177c1d7ead53",
+          "video": "古力小超人 08 Yum-Yum.mp4",
+          "start": 58.0,
+          "end": 69.6,
+          "quote": "Pick the apples!"
+        },
+        "phrase": {
+          "videoId": "3ea6d42c2b2a177c1d7ead53",
+          "video": "古力小超人 08 Yum-Yum.mp4",
+          "start": 46.0,
+          "end": 48.0,
+          "quote": "Let's pick apples!"
+        },
+        "originalPhrase": "pick apples",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-carrot": {
+      "answer": "carrot",
+      "options": [
+        "carrot",
+        "apple",
+        "nuts"
+      ],
+      "prompt": "Can you pick the carrot?",
+      "feedback": "Well done! It's a carrot.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "3ea6d42c2b2a177c1d7ead53",
+          "video": "古力小超人 08 Yum-Yum.mp4",
+          "start": 54.0,
+          "end": 56.0,
+          "quote": "Let's pick carrots!"
+        },
+        "phrase": {
+          "videoId": "3ea6d42c2b2a177c1d7ead53",
+          "video": "古力小超人 08 Yum-Yum.mp4",
+          "start": 54.0,
+          "end": 56.0,
+          "quote": "Let's pick carrots!"
+        },
+        "originalPhrase": "pick carrots",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-nuts": {
+      "answer": "nuts",
+      "options": [
+        "nuts",
+        "apple",
+        "carrot"
+      ],
+      "prompt": "Can you put the nuts in the basket?",
+      "feedback": "Well done! These are nuts.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "3ea6d42c2b2a177c1d7ead53",
+          "video": "古力小超人 08 Yum-Yum.mp4",
+          "start": 74.32,
+          "end": 85.2,
+          "quote": "Pick the nuts."
+        },
+        "phrase": {
+          "videoId": "3ea6d42c2b2a177c1d7ead53",
+          "video": "古力小超人 08 Yum-Yum.mp4",
+          "start": 69.6,
+          "end": 74.32,
+          "quote": "Put them in the basket."
+        },
+        "originalPhrase": "Put them in the basket",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-star": {
+      "answer": "star",
+      "options": [
+        "star",
+        "owl",
+        "umbrella"
+      ],
+      "prompt": "Can you see the twinkling star?",
+      "feedback": "Well done! It's a star.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "504ca49bc07c2845534d4529",
+          "video": "古力小超人 09 Go Away，Shadow.mp4",
+          "start": 139.0,
+          "end": 142.0,
+          "quote": "Shine, Shine down big star"
+        },
+        "phrase": {
+          "videoId": "504ca49bc07c2845534d4529",
+          "video": "古力小超人 09 Go Away，Shadow.mp4",
+          "start": 38.0,
+          "end": 42.0,
+          "quote": "Look at the stars! Twinkle twinkle!"
+        },
+        "originalPhrase": "Twinkle twinkle",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-owl": {
+      "answer": "owl",
+      "options": [
+        "owl",
+        "frog",
+        "bunny"
+      ],
+      "prompt": "Can you hear the owl?",
+      "feedback": "Well done! It's an owl.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "504ca49bc07c2845534d4529",
+          "video": "古力小超人 09 Go Away，Shadow.mp4",
+          "start": 75.5,
+          "end": 77.5,
+          "quote": "Listen to the owl!"
+        },
+        "phrase": {
+          "videoId": "504ca49bc07c2845534d4529",
+          "video": "古力小超人 09 Go Away，Shadow.mp4",
+          "start": 75.5,
+          "end": 77.5,
+          "quote": "Listen to the owl!"
+        },
+        "originalPhrase": "Listen to the owl",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-bunny": {
+      "answer": "bunny",
+      "options": [
+        "bunny",
+        "frog",
+        "owl"
+      ],
+      "prompt": "Can you follow the bunny?",
+      "feedback": "Well done! It's a bunny.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "66ebbaa933529208c181abad",
+          "video": "古力小超人 10 Follow Me.mp4",
+          "start": 20.0,
+          "end": 46.0,
+          "quote": "Oh, it's a Mommy Bunny!"
+        },
+        "phrase": {
+          "videoId": "66ebbaa933529208c181abad",
+          "video": "古力小超人 10 Follow Me.mp4",
+          "start": 11.0,
+          "end": 13.0,
+          "quote": "Follow me."
+        },
+        "originalPhrase": "Follow me",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-umbrella": {
+      "answer": "umbrella",
+      "options": [
+        "umbrella",
+        "bucket",
+        "one-balloon"
+      ],
+      "prompt": "Do you have an umbrella?",
+      "feedback": "Well done! It's an umbrella.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "9587cf45391f8e150eb880b8",
+          "video": "古力小超人 11 The Rainy Day.mp4",
+          "start": 80.08,
+          "end": 85.08,
+          "quote": "I have a blue umbrella."
+        },
+        "phrase": {
+          "videoId": "9587cf45391f8e150eb880b8",
+          "video": "古力小超人 11 The Rainy Day.mp4",
+          "start": 76.28,
+          "end": 79.08,
+          "quote": "I have a green umbrella."
+        },
+        "originalPhrase": "I have a green umbrella",
+        "questionKind": "adapted-question"
+      }
+    },
+    "guli-cook": {
+      "answer": "cook",
+      "options": [
+        "cook",
+        "bunny",
+        "hello"
+      ],
+      "prompt": "Who are you? Are you a cook?",
+      "feedback": "Well done! It's a cook.",
+      "series": "guli",
+      "source": {
+        "target": {
+          "videoId": "f9ea817b09bafe3c1ebc87fd",
+          "video": "古力小超人 12 Who are You.mp4",
+          "start": 60.0,
+          "end": 62.0,
+          "quote": "I'm a cook!"
+        },
+        "phrase": {
+          "videoId": "f9ea817b09bafe3c1ebc87fd",
+          "video": "古力小超人 12 Who are You.mp4",
+          "start": 60.0,
+          "end": 62.0,
+          "quote": "I'm a cook!"
+        },
+        "originalPhrase": "I'm a cook",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-hello": {
+      "answer": "hello",
+      "options": [
+        "hello",
+        "run",
+        "walk"
+      ],
+      "prompt": "Can you say hello?",
+      "feedback": "Well done! Hello!",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "e4fe5fd58904751448719c30",
+          "video": "006.Wow!Yellow Unit 3 garden - part 1 video_story.mp4",
+          "start": 174.54,
+          "end": 175.54,
+          "quote": "Hello!"
+        },
+        "phrase": {
+          "videoId": "e4fe5fd58904751448719c30",
+          "video": "006.Wow!Yellow Unit 3 garden - part 1 video_story.mp4",
+          "start": 22.0,
+          "end": 44.68,
+          "quote": "house window door oh hello hello boys and girls hi can you say hello yeah try it"
+        },
+        "originalPhrase": "can you say hello",
+        "questionKind": "original-question"
+      }
+    },
+    "wow-run": {
+      "answer": "run",
+      "options": [
+        "run",
+        "walk",
+        "hello"
+      ],
+      "prompt": "Can you show me how to run?",
+      "feedback": "Well done! Run!",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "6165021fd1443ce75721df18",
+          "video": "001.Wow!Yellow Unit 1 hello video_story.mp4",
+          "start": 201.68,
+          "end": 203.4,
+          "quote": "Show me how to run."
+        },
+        "phrase": {
+          "videoId": "6165021fd1443ce75721df18",
+          "video": "001.Wow!Yellow Unit 1 hello video_story.mp4",
+          "start": 201.68,
+          "end": 203.4,
+          "quote": "Show me how to run."
+        },
+        "originalPhrase": "Show me how to run",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-red": {
+      "answer": "red",
+      "options": [
+        "red",
+        "green",
+        "yellow"
+      ],
+      "prompt": "What colour is it? Can you find red?",
+      "feedback": "Well done! It's red.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "446a7f09b6c113316ba4ebe2",
+          "video": "004.Wow!Yellow Unit 2 colour video_story.mp4",
+          "start": 75.0,
+          "end": 77.0,
+          "quote": "Red."
+        },
+        "phrase": {
+          "videoId": "446a7f09b6c113316ba4ebe2",
+          "video": "004.Wow!Yellow Unit 2 colour video_story.mp4",
+          "start": 70.0,
+          "end": 73.0,
+          "quote": "What colour is it?"
+        },
+        "originalPhrase": "What colour is it",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-green": {
+      "answer": "green",
+      "options": [
+        "green",
+        "yellow",
+        "red"
+      ],
+      "prompt": "Can you show me green?",
+      "feedback": "Well done! It's green.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "446a7f09b6c113316ba4ebe2",
+          "video": "004.Wow!Yellow Unit 2 colour video_story.mp4",
+          "start": 139.64,
+          "end": 140.64,
+          "quote": "Green!"
+        },
+        "phrase": {
+          "videoId": "446a7f09b6c113316ba4ebe2",
+          "video": "004.Wow!Yellow Unit 2 colour video_story.mp4",
+          "start": 130.24,
+          "end": 132.8,
+          "quote": "Show us the green part!"
+        },
+        "originalPhrase": "Show us the green part",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-yellow": {
+      "answer": "yellow",
+      "options": [
+        "yellow",
+        "red",
+        "green"
+      ],
+      "prompt": "Which one is yellow?",
+      "feedback": "Well done! It's yellow.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "446a7f09b6c113316ba4ebe2",
+          "video": "004.Wow!Yellow Unit 2 colour video_story.mp4",
+          "start": 106.8,
+          "end": 108.39999999999999,
+          "quote": "It's yellow!"
+        },
+        "phrase": {
+          "videoId": "446a7f09b6c113316ba4ebe2",
+          "video": "004.Wow!Yellow Unit 2 colour video_story.mp4",
+          "start": 110.24,
+          "end": 112.0,
+          "quote": "What color is it?"
+        },
+        "originalPhrase": "What color is it",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-house": {
+      "answer": "house",
+      "options": [
+        "house",
+        "car",
+        "tree"
+      ],
+      "prompt": "What is it? Can you find the house?",
+      "feedback": "Well done! It's a house.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "e4fe5fd58904751448719c30",
+          "video": "006.Wow!Yellow Unit 3 garden - part 1 video_story.mp4",
+          "start": 235.94,
+          "end": 239.98,
+          "quote": "Oh, great! Look at my house!"
+        },
+        "phrase": {
+          "videoId": "e4fe5fd58904751448719c30",
+          "video": "006.Wow!Yellow Unit 3 garden - part 1 video_story.mp4",
+          "start": 125.33999999999999,
+          "end": 126.41999999999999,
+          "quote": "What is it?"
+        },
+        "originalPhrase": "What is it",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-door": {
+      "answer": "door",
+      "options": [
+        "door",
+        "tree",
+        "apple"
+      ],
+      "prompt": "Can you open the door?",
+      "feedback": "Well done! It's a door.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "e4fe5fd58904751448719c30",
+          "video": "006.Wow!Yellow Unit 3 garden - part 1 video_story.mp4",
+          "start": 106.1,
+          "end": 109.1,
+          "quote": "Let's make a door!"
+        },
+        "phrase": {
+          "videoId": "e4fe5fd58904751448719c30",
+          "video": "006.Wow!Yellow Unit 3 garden - part 1 video_story.mp4",
+          "start": 159.42000000000002,
+          "end": 164.14000000000001,
+          "quote": "Silly me. I didn't open the door."
+        },
+        "originalPhrase": "open the door",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-tree": {
+      "answer": "tree",
+      "options": [
+        "tree",
+        "house",
+        "flower"
+      ],
+      "prompt": "What can you see? Is it a tree?",
+      "feedback": "Well done! It's a tree.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "5254201fd22930b8ad553a6a",
+          "video": "008.Wow!Yellow Unit 3 garden - part 2 video_story.mp4",
+          "start": 63.04,
+          "end": 69.03999999999999,
+          "quote": "Yeah, it's a tree. A green tree."
+        },
+        "phrase": {
+          "videoId": "5254201fd22930b8ad553a6a",
+          "video": "008.Wow!Yellow Unit 3 garden - part 2 video_story.mp4",
+          "start": 60.04,
+          "end": 63.04,
+          "quote": "What's this? What is it?"
+        },
+        "originalPhrase": "What is it",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-sun": {
+      "answer": "sun",
+      "options": [
+        "sun",
+        "tree",
+        "flower"
+      ],
+      "prompt": "What is big and yellow?",
+      "feedback": "Well done! It's the sun.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "5254201fd22930b8ad553a6a",
+          "video": "008.Wow!Yellow Unit 3 garden - part 2 video_story.mp4",
+          "start": 254.18,
+          "end": 257.18,
+          "quote": "The tree, the sun and the flower."
+        },
+        "phrase": {
+          "videoId": "5254201fd22930b8ad553a6a",
+          "video": "008.Wow!Yellow Unit 3 garden - part 2 video_story.mp4",
+          "start": 138.44,
+          "end": 149.62,
+          "quote": "and what's that over there? It's big and yellow. What is it? Oh, yeah, it's the sun."
+        },
+        "originalPhrase": "big and yellow",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-car": {
+      "answer": "car",
+      "options": [
+        "car",
+        "bike",
+        "train"
+      ],
+      "prompt": "Can you drive a car?",
+      "feedback": "Well done! It's a car.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "09fe9e13fbdf3b2f36448845",
+          "video": "011.Wow!Yellow Unit 4 toys- part 1 video_song.mp4",
+          "start": 44.0,
+          "end": 53.0,
+          "quote": "Drive a car today. What is it? It's a train. What is it? It's a train. What is it? It's a train."
+        },
+        "phrase": {
+          "videoId": "09fe9e13fbdf3b2f36448845",
+          "video": "011.Wow!Yellow Unit 4 toys- part 1 video_song.mp4",
+          "start": 44.0,
+          "end": 53.0,
+          "quote": "Drive a car today. What is it? It's a train. What is it? It's a train. What is it? It's a train."
+        },
+        "originalPhrase": "drive a car",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-bike": {
+      "answer": "bike",
+      "options": [
+        "bike",
+        "car",
+        "train"
+      ],
+      "prompt": "Can you ride a bike?",
+      "feedback": "Well done! It's a bike.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "09fe9e13fbdf3b2f36448845",
+          "video": "011.Wow!Yellow Unit 4 toys- part 1 video_song.mp4",
+          "start": 24.0,
+          "end": 26.0,
+          "quote": "Ride a bike today."
+        },
+        "phrase": {
+          "videoId": "09fe9e13fbdf3b2f36448845",
+          "video": "011.Wow!Yellow Unit 4 toys- part 1 video_song.mp4",
+          "start": 24.0,
+          "end": 26.0,
+          "quote": "Ride a bike today."
+        },
+        "originalPhrase": "ride a bike",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-train": {
+      "answer": "train",
+      "options": [
+        "train",
+        "bike",
+        "car"
+      ],
+      "prompt": "What goes choo-choo?",
+      "feedback": "Well done! It's a train.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "dd652b081babb5d5cfca6f3c",
+          "video": "010.Wow!Yellow Unit 4 toys- part 1 video_story.mp4",
+          "start": 202.48000000000002,
+          "end": 205.32,
+          "quote": "It's a train."
+        },
+        "phrase": {
+          "videoId": "dd652b081babb5d5cfca6f3c",
+          "video": "010.Wow!Yellow Unit 4 toys- part 1 video_story.mp4",
+          "start": 170.4,
+          "end": 188.4,
+          "quote": "Hey! Oh hello again! Look I'm on a train! Yeah! Choo choo! Hey! So say with me it's a train. Come on it's a train."
+        },
+        "originalPhrase": "Choo choo",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-arms": {
+      "answer": "arms",
+      "options": [
+        "arms",
+        "legs",
+        "face"
+      ],
+      "prompt": "Where are my arms?",
+      "feedback": "Well done! These are arms.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "33f8c376b5451aec07e997df",
+          "video": "014.Wow!Yellow Unit 5 'body' - part 1 video_story.mp4",
+          "start": 163.52,
+          "end": 165.4,
+          "quote": "Two arms."
+        },
+        "phrase": {
+          "videoId": "33f8c376b5451aec07e997df",
+          "video": "014.Wow!Yellow Unit 5 'body' - part 1 video_story.mp4",
+          "start": 126.0,
+          "end": 128.2,
+          "quote": "Where are my arms?"
+        },
+        "originalPhrase": "Where are my arms",
+        "questionKind": "original-question"
+      }
+    },
+    "wow-legs": {
+      "answer": "legs",
+      "options": [
+        "legs",
+        "arms",
+        "face"
+      ],
+      "prompt": "Where are my legs?",
+      "feedback": "Well done! These are legs.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "33f8c376b5451aec07e997df",
+          "video": "014.Wow!Yellow Unit 5 'body' - part 1 video_story.mp4",
+          "start": 84.24000000000001,
+          "end": 86.24000000000001,
+          "quote": "Where are my legs?"
+        },
+        "phrase": {
+          "videoId": "33f8c376b5451aec07e997df",
+          "video": "014.Wow!Yellow Unit 5 'body' - part 1 video_story.mp4",
+          "start": 84.24000000000001,
+          "end": 86.24000000000001,
+          "quote": "Where are my legs?"
+        },
+        "originalPhrase": "Where are my legs",
+        "questionKind": "original-question"
+      }
+    },
+    "wow-apple": {
+      "answer": "apple",
+      "options": [
+        "apple",
+        "banana",
+        "orange"
+      ],
+      "prompt": "Yummy! Can you find an apple?",
+      "feedback": "Well done! It's an apple.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "5d11aec32eb6936c5db39014",
+          "video": "018.Wow!Yellow Unit 6 'food' - part 1 video_story.mp4",
+          "start": 53.0,
+          "end": 55.0,
+          "quote": "Mmm, apple."
+        },
+        "phrase": {
+          "videoId": "5d11aec32eb6936c5db39014",
+          "video": "018.Wow!Yellow Unit 6 'food' - part 1 video_story.mp4",
+          "start": 73.0,
+          "end": 75.0,
+          "quote": "Yeah, it's an apple."
+        },
+        "originalPhrase": "it's an apple",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-banana": {
+      "answer": "banana",
+      "options": [
+        "banana",
+        "orange",
+        "apple"
+      ],
+      "prompt": "Can I have the banana, please?",
+      "feedback": "Well done! It's a banana.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "5d11aec32eb6936c5db39014",
+          "video": "018.Wow!Yellow Unit 6 'food' - part 1 video_story.mp4",
+          "start": 159.76,
+          "end": 162.2,
+          "quote": "It's a banana."
+        },
+        "phrase": {
+          "videoId": "5d11aec32eb6936c5db39014",
+          "video": "018.Wow!Yellow Unit 6 'food' - part 1 video_story.mp4",
+          "start": 168.32,
+          "end": 171.35999999999999,
+          "quote": "Oh Maggie, can I have the banana, please?"
+        },
+        "originalPhrase": "can I have the banana, please",
+        "questionKind": "original-question"
+      }
+    },
+    "wow-orange": {
+      "answer": "orange",
+      "options": [
+        "orange",
+        "apple",
+        "banana"
+      ],
+      "prompt": "Is it an orange? Can you find it?",
+      "feedback": "Well done! It's an orange.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "5d11aec32eb6936c5db39014",
+          "video": "018.Wow!Yellow Unit 6 'food' - part 1 video_story.mp4",
+          "start": 240.44,
+          "end": 241.92,
+          "quote": "It's an orange."
+        },
+        "phrase": {
+          "videoId": "5d11aec32eb6936c5db39014",
+          "video": "018.Wow!Yellow Unit 6 'food' - part 1 video_story.mp4",
+          "start": 210.48,
+          "end": 223.33999999999997,
+          "quote": "Look, what is it? Is it a banana? No! Is it an apple? Maybe. Is it an orange? I don't"
+        },
+        "originalPhrase": "Is it an orange",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-butterfly": {
+      "answer": "butterfly",
+      "options": [
+        "butterfly",
+        "bee",
+        "ladybird"
+      ],
+      "prompt": "What can you see? Can you find the butterfly?",
+      "feedback": "Well done! It's a butterfly.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "f4754a400ce3d2cb1397af43",
+          "video": "024.Wow!Yellow Unit 7 bugs - part 2 video_story_7_2.mp4",
+          "start": 171.32,
+          "end": 174.72,
+          "quote": "Yeah, it's a butterfly."
+        },
+        "phrase": {
+          "videoId": "f4754a400ce3d2cb1397af43",
+          "video": "024.Wow!Yellow Unit 7 bugs - part 2 video_story_7_2.mp4",
+          "start": 159.72,
+          "end": 161.72,
+          "quote": "What can you see?"
+        },
+        "originalPhrase": "What can you see",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-bee": {
+      "answer": "bee",
+      "options": [
+        "bee",
+        "butterfly",
+        "ladybird"
+      ],
+      "prompt": "Can you see the bee?",
+      "feedback": "Well done! It's a bee.",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "0454e6cb8f3e7e88e80f14e4",
+          "video": "022.Wow!Yellow Unit 7 'bugs' - part 1 video_story_7_1.mp4",
+          "start": 23.0,
+          "end": 29.0,
+          "quote": "Lady Bird, Snail, and Bee!"
+        },
+        "phrase": {
+          "videoId": "0454e6cb8f3e7e88e80f14e4",
+          "video": "022.Wow!Yellow Unit 7 'bugs' - part 1 video_story_7_1.mp4",
+          "start": 225.12,
+          "end": 227.12,
+          "quote": "Can you see it?"
+        },
+        "originalPhrase": "Can you see it",
+        "questionKind": "adapted-question"
+      }
+    },
+    "wow-happy": {
+      "answer": "happy",
+      "options": [
+        "happy",
+        "sad",
+        "okay"
+      ],
+      "prompt": "Are you happy? Which face is happy?",
+      "feedback": "Well done! Happy!",
+      "series": "wow",
+      "source": {
+        "target": {
+          "videoId": "89887dcd3ca12d1f415214ea",
+          "video": "027.Wow!Yellow Unit 8 'feelings' - part 1 video_song_8_1.mp4",
+          "start": 76.72,
+          "end": 80.72,
+          "quote": "Maggie, Maggie, you're so happy!"
+        },
+        "phrase": {
+          "videoId": "89887dcd3ca12d1f415214ea",
+          "video": "027.Wow!Yellow Unit 8 'feelings' - part 1 video_song_8_1.mp4",
+          "start": 57.36,
+          "end": 64.72,
+          "quote": "Happy, happy, are you happy? Are you happy? Happy, happy, happy?"
+        },
+        "originalPhrase": "Are you happy",
+        "questionKind": "adapted-question"
+      }
+    }
+  },
+  "decks": {
+    "wow": {
+      "label": "WOW English",
+      "roundSize": 20,
+      "questions": [
+        "wow-hello",
+        "wow-run",
+        "wow-red",
+        "wow-green",
+        "wow-yellow",
+        "wow-house",
+        "wow-door",
+        "wow-tree",
+        "wow-sun",
+        "wow-car",
+        "wow-bike",
+        "wow-train",
+        "wow-arms",
+        "wow-legs",
+        "wow-apple",
+        "wow-banana",
+        "wow-orange",
+        "wow-butterfly",
+        "wow-bee",
+        "wow-happy"
+      ],
+      "sourceVideoCount": 26,
+      "sourceVideos": [
+        {
+          "id": "6165021fd1443ce75721df18",
+          "name": "001.Wow!Yellow Unit 1 hello video_story.mp4"
+        },
+        {
+          "id": "0ed077dcd793df44f9c9e769",
+          "name": "002.Wow!Yellow Unit 1 hello video_song1.mp4"
+        },
+        {
+          "id": "d0a665dc40c3dadda81dc9a9",
+          "name": "003.Wow!Yellow Unit 1 hello video_song2.mp4"
+        },
+        {
+          "id": "446a7f09b6c113316ba4ebe2",
+          "name": "004.Wow!Yellow Unit 2 colour video_story.mp4"
+        },
+        {
+          "id": "751a35b29b5e7b0265c24ebf",
+          "name": "005.Wow!Yellow Unit 2 colour video_song.mp4"
+        },
+        {
+          "id": "e4fe5fd58904751448719c30",
+          "name": "006.Wow!Yellow Unit 3 garden - part 1 video_story.mp4"
+        },
+        {
+          "id": "ea41704ec6b1c97657dc1a51",
+          "name": "007.Wow!Yellow Unit 3 garden - part 1 video_song.mp4"
+        },
+        {
+          "id": "5254201fd22930b8ad553a6a",
+          "name": "008.Wow!Yellow Unit 3 garden - part 2 video_story.mp4"
+        },
+        {
+          "id": "b3be97dd796ad9d3dabaf68b",
+          "name": "009.Wow!Yellow Unit 3 garden - part 2 video_song.mp4"
+        },
+        {
+          "id": "dd652b081babb5d5cfca6f3c",
+          "name": "010.Wow!Yellow Unit 4 toys- part 1 video_story.mp4"
+        },
+        {
+          "id": "09fe9e13fbdf3b2f36448845",
+          "name": "011.Wow!Yellow Unit 4 toys- part 1 video_song.mp4"
+        },
+        {
+          "id": "96e476163f7e4b7b2cb90ee4",
+          "name": "012.Wow!Yellow Unit 4 'toys' - part 2 video_story.mp4"
+        },
+        {
+          "id": "1b5bc17466bcc2d3740bf572",
+          "name": "013.Wow!Yellow Unit 4 'toys' - part 2 video_song.mp4"
+        },
+        {
+          "id": "33f8c376b5451aec07e997df",
+          "name": "014.Wow!Yellow Unit 5 'body' - part 1 video_story.mp4"
+        },
+        {
+          "id": "c31489b44d81948f5e2c80cc",
+          "name": "015.Wow!Yellow Unit 5 'body' - part 1 video_song.mp4"
+        },
+        {
+          "id": "5c4193f81a795e92f996f65a",
+          "name": "016.Wow!Yellow Unit 5 'body' - part 2 video_story.mp4"
+        },
+        {
+          "id": "3db283e4f1fb5ae74344d7e6",
+          "name": "017.Wow!Yellow Unit 5 'body' - part 2 video_song.mp4"
+        },
+        {
+          "id": "5d11aec32eb6936c5db39014",
+          "name": "018.Wow!Yellow Unit 6 'food' - part 1 video_story.mp4"
+        },
+        {
+          "id": "61f89d6a4e89c0ae13961ea4",
+          "name": "019.Wow!Yellow Unit 6 'food' - part 1 video_song.mp4"
+        },
+        {
+          "id": "7b3cf7bb68d658551cafd4aa",
+          "name": "020.Wow!Yellow Unit 6 'food' - part 2 video_story_6_2.mp4"
+        },
+        {
+          "id": "ea2c5e3241b60bba6847efa9",
+          "name": "021.Wow!Yellow Unit 6 'food' - part 2 video_song_6_2.mp4"
+        },
+        {
+          "id": "0454e6cb8f3e7e88e80f14e4",
+          "name": "022.Wow!Yellow Unit 7 'bugs' - part 1 video_story_7_1.mp4"
+        },
+        {
+          "id": "a09a04dfee2f4099cd695c06",
+          "name": "023.Wow!Yellow Unit 7 'bugs' - part 1 video_song_7_1.mp4"
+        },
+        {
+          "id": "f4754a400ce3d2cb1397af43",
+          "name": "024.Wow!Yellow Unit 7 bugs - part 2 video_story_7_2.mp4"
+        },
+        {
+          "id": "ec667d39299a1dabd3d76d89",
+          "name": "025.Wow!Yellow Unit 7 bugs - part 2 video_song_7_2.mp4"
+        },
+        {
+          "id": "89887dcd3ca12d1f415214ea",
+          "name": "027.Wow!Yellow Unit 8 'feelings' - part 1 video_song_8_1.mp4"
+        }
+      ],
+      "words": [
+        "Hello!",
+        "Run!",
+        "Red",
+        "Green",
+        "Yellow",
+        "House",
+        "Door",
+        "Tree",
+        "Sun",
+        "Car",
+        "Bike",
+        "Train",
+        "Arms",
+        "Legs",
+        "Apple",
+        "Banana",
+        "Orange",
+        "Butterfly",
+        "Bee",
+        "Happy"
+      ]
+    },
+    "guli": {
+      "label": "Little Superhero",
+      "roundSize": 20,
+      "questions": [
+        "guli-hello",
+        "guli-frog",
+        "guli-ears",
+        "guli-nose",
+        "guli-feet",
+        "guli-playground",
+        "guli-bucket",
+        "guli-scooter",
+        "guli-bike",
+        "guli-car",
+        "guli-four-balloons",
+        "guli-cake",
+        "guli-apple",
+        "guli-carrot",
+        "guli-nuts",
+        "guli-star",
+        "guli-owl",
+        "guli-bunny",
+        "guli-umbrella",
+        "guli-cook"
+      ],
+      "sourceVideoCount": 12,
+      "sourceVideos": [
+        {
+          "id": "7691bbf7de601a2eb2c5e5d6",
+          "name": "古力小超人 01 Hello.mp4"
+        },
+        {
+          "id": "ef5fd7a5962b16c606f94836",
+          "name": "古力小超人 02 wake up.mp4"
+        },
+        {
+          "id": "ab348b62e81b4013566328ff",
+          "name": "古力小超人 03 Scrub,Scrub,Scrub.mp4"
+        },
+        {
+          "id": "513238f48d8bf662ff66a5fc",
+          "name": "古力小超人 04 Hide and Seek.mp4"
+        },
+        {
+          "id": "32dc3c4865ab52e2a180f0c3",
+          "name": "古力小超人 05 Pat,Pat,Pat.mp4"
+        },
+        {
+          "id": "3a3e682c7b3ed6c1ea5f8939",
+          "name": "古力小超人 06 Ready,Go!.mp4"
+        },
+        {
+          "id": "5eb61f91e22c2d49038f7ac0",
+          "name": "古力小超人 07 The Birthday Party.mp4"
+        },
+        {
+          "id": "3ea6d42c2b2a177c1d7ead53",
+          "name": "古力小超人 08 Yum-Yum.mp4"
+        },
+        {
+          "id": "504ca49bc07c2845534d4529",
+          "name": "古力小超人 09 Go Away，Shadow.mp4"
+        },
+        {
+          "id": "66ebbaa933529208c181abad",
+          "name": "古力小超人 10 Follow Me.mp4"
+        },
+        {
+          "id": "9587cf45391f8e150eb880b8",
+          "name": "古力小超人 11 The Rainy Day.mp4"
+        },
+        {
+          "id": "f9ea817b09bafe3c1ebc87fd",
+          "name": "古力小超人 12 Who are You.mp4"
+        }
+      ],
+      "words": [
+        "Hello!",
+        "Frog",
+        "Ears",
+        "Nose",
+        "Feet",
+        "Playground",
+        "Bucket",
+        "Scooter",
+        "Bike",
+        "Car",
+        "Four balloons",
+        "Cake",
+        "Apple",
+        "Carrot",
+        "Nuts",
+        "Star",
+        "Owl",
+        "Bunny",
+        "Umbrella",
+        "Cook"
+      ]
+    },
+    "animals": {
+      "label": "Animal friends",
+      "questions": [
+        "where-cat",
+        "where-dog",
+        "where-bird",
+        "where-rabbit"
+      ]
+    },
+    "colors": {
+      "label": "A world of colors",
+      "questions": [
+        "find-red",
+        "find-yellow",
+        "find-green",
+        "find-blue"
+      ]
+    },
+    "actions": {
+      "label": "Sing & move",
+      "questions": [
+        "say-hello",
+        "find-run",
+        "find-sleep",
+        "find-clap",
+        "find-wash"
+      ]
+    }
+  },
+  "wrongFeedback": {
+    "cat": "You are wrong. This is a cat.",
+    "dog": "You are wrong. This is a dog.",
+    "bird": "You are wrong. This is a bird.",
+    "rabbit": "You are wrong. This is a rabbit.",
+    "apple": "You are wrong. This is an apple.",
+    "banana": "You are wrong. This is a banana.",
+    "orange": "You are wrong. This is an orange.",
+    "ball": "You are wrong. This is a ball.",
+    "car": "You are wrong. This is a car.",
+    "teddy": "You are wrong. This is a teddy bear.",
+    "butterfly": "You are wrong. This is a butterfly.",
+    "bee": "You are wrong. This is a bee.",
+    "flower": "You are wrong. This is a flower.",
+    "eye": "You are wrong. This is an eye.",
+    "ear": "You are wrong. This is an ear.",
+    "hand": "You are wrong. This is a hand.",
+    "hello": "You are wrong. This is waving hello.",
+    "sleep": "You are wrong. This is going to bed.",
+    "cake": "You are wrong. This is a cake.",
+    "rain": "You are wrong. This is rain.",
+    "sun": "You are wrong. This is the sun.",
+    "bath": "You are wrong. This is washing.",
+    "run": "You are wrong. This is running.",
+    "clap": "You are wrong. This is clapping hands.",
+    "red": "You are wrong. This is red.",
+    "blue": "You are wrong. This is blue.",
+    "yellow": "You are wrong. This is yellow.",
+    "green": "You are wrong. This is green.",
+    "happy": "You are wrong. This is a happy face.",
+    "sad": "You are wrong. This is a sad face.",
+    "frog": "You are wrong. This is a frog.",
+    "ears": "You are wrong. This is a pair of ears.",
+    "nose": "You are wrong. This is a nose.",
+    "feet": "You are wrong. This is a pair of feet.",
+    "playground": "You are wrong. This is a playground.",
+    "bucket": "You are wrong. This is a bucket.",
+    "scooter": "You are wrong. This is a scooter.",
+    "bike": "You are wrong. This is a bike.",
+    "four-balloons": "You are wrong. This is a picture of four balloons.",
+    "two-balloons": "You are wrong. This is a picture of two balloons.",
+    "one-balloon": "You are wrong. This is a picture of one balloon.",
+    "carrot": "You are wrong. This is a carrot.",
+    "nuts": "You are wrong. This is a picture of nuts.",
+    "star": "You are wrong. This is a star.",
+    "owl": "You are wrong. This is an owl.",
+    "bunny": "You are wrong. This is a bunny.",
+    "umbrella": "You are wrong. This is an umbrella.",
+    "cook": "You are wrong. This is a cook.",
+    "walk": "You are wrong. This is walking.",
+    "house": "You are wrong. This is a house.",
+    "door": "You are wrong. This is a door.",
+    "window": "You are wrong. This is a window.",
+    "tree": "You are wrong. This is a tree.",
+    "train": "You are wrong. This is a train.",
+    "arms": "You are wrong. This is a pair of arms.",
+    "legs": "You are wrong. This is a pair of legs.",
+    "ladybird": "You are wrong. This is a ladybird.",
+    "balloon": "You are wrong. This is a balloon.",
+    "face": "You are wrong. This is a face.",
+    "okay": "You are wrong. This is an okay face."
+  },
+  "schemaVersion": 3,
+  "pictureGroups": {
+    "ears": {
+      "picture": "ear",
+      "count": 2
+    },
+    "feet": {
+      "picture": "foot",
+      "count": 2
+    },
+    "arms": {
+      "picture": "arm",
+      "count": 2
+    },
+    "legs": {
+      "picture": "leg",
+      "count": 2
+    },
+    "four-balloons": {
+      "picture": "balloon",
+      "count": 4
+    },
+    "two-balloons": {
+      "picture": "balloon",
+      "count": 2
+    },
+    "one-balloon": {
+      "picture": "balloon",
+      "count": 1
+    }
+  },
+  "seriesPictures": {
+    "guli": {
+      "hello": {
+        "src": "game-stills/guli/hello.jpg",
+        "kind": "video-frame",
+        "width": 448,
+        "height": 593,
+        "source": {
+          "videoId": "7691bbf7de601a2eb2c5e5d6",
+          "video": "古力小超人 01 Hello.mp4",
+          "bytes": 22886623,
+          "seconds": 23.5,
+          "frameKey": "guli-hello-4",
+          "crop": [
+            0.61,
+            0.1,
+            0.96,
+            0.96
+          ]
+        },
+        "description": "The familiar lion waving hello in the playground."
+      },
+      "frog": {
+        "src": "game-stills/guli/frog.jpg",
+        "kind": "video-frame",
+        "width": 691,
+        "height": 488,
+        "source": {
+          "videoId": "ef5fd7a5962b16c606f94836",
+          "video": "古力小超人 02 wake up.mp4",
+          "bytes": 30029549,
+          "seconds": 37.6,
+          "frameKey": "guli-frog-1",
+          "crop": [
+            0.4,
+            0.25,
+            0.94,
+            0.96
+          ]
+        },
+        "description": "Sleeping frog with its leaf hat."
+      },
+      "ears": {
+        "src": "game-stills/guli/ears.jpg",
+        "kind": "video-frame",
+        "width": 525,
+        "height": 337,
+        "source": {
+          "videoId": "ab348b62e81b4013566328ff",
+          "video": "古力小超人 03 Scrub,Scrub,Scrub.mp4",
+          "bytes": 23733921,
+          "seconds": 46,
+          "frameKey": "guli-ears-final",
+          "crop": [
+            0.43,
+            0,
+            0.84,
+            0.49
+          ]
+        },
+        "description": "The pink bunny showing both long ears in the bath."
+      },
+      "nose": {
+        "src": "game-stills/guli/nose.jpg",
+        "kind": "video-frame",
+        "width": 332,
+        "height": 310,
+        "source": {
+          "videoId": "ab348b62e81b4013566328ff",
+          "video": "古力小超人 03 Scrub,Scrub,Scrub.mp4",
+          "bytes": 23733921,
+          "seconds": 62,
+          "frameKey": "guli-nose-clean-2",
+          "crop": [
+            0.62,
+            0.38,
+            0.88,
+            0.83
+          ]
+        },
+        "description": "The pink bunny face with its round nose."
+      },
+      "feet": {
+        "src": "game-stills/guli/feet.jpg",
+        "kind": "video-frame",
+        "width": 282,
+        "height": 199,
+        "source": {
+          "videoId": "ab348b62e81b4013566328ff",
+          "video": "古力小超人 03 Scrub,Scrub,Scrub.mp4",
+          "bytes": 23733921,
+          "seconds": 75,
+          "frameKey": "guli-feet-final",
+          "crop": [
+            0.44,
+            0.52,
+            0.66,
+            0.81
+          ]
+        },
+        "description": "Both bunny feet above the bath bubbles."
+      },
+      "playground": {
+        "src": "game-stills/guli/playground.jpg",
+        "kind": "video-frame",
+        "width": 525,
+        "height": 550,
+        "source": {
+          "videoId": "513238f48d8bf662ff66a5fc",
+          "video": "古力小超人 04 Hide and Seek.mp4",
+          "bytes": 25219205,
+          "seconds": 79.24,
+          "frameKey": "guli-playground-2",
+          "crop": [
+            0.58,
+            0.04,
+            0.99,
+            0.84
+          ]
+        },
+        "description": "The slide and climbing frame from hide and seek."
+      },
+      "bucket": {
+        "src": "game-stills/guli/bucket.jpg",
+        "kind": "video-frame",
+        "width": 346,
+        "height": 302,
+        "source": {
+          "videoId": "32dc3c4865ab52e2a180f0c3",
+          "video": "古力小超人 05 Pat,Pat,Pat.mp4",
+          "bytes": 21091846,
+          "seconds": 57.92,
+          "frameKey": "guli-bucket-1",
+          "crop": [
+            0.64,
+            0.52,
+            0.91,
+            0.96
+          ]
+        },
+        "description": "The green beach bucket being filled with sand."
+      },
+      "scooter": {
+        "src": "game-stills/guli/scooter.jpg",
+        "kind": "video-frame",
+        "width": 742,
+        "height": 682,
+        "source": {
+          "videoId": "3a3e682c7b3ed6c1ea5f8939",
+          "video": "古力小超人 06 Ready,Go!.mp4",
+          "bytes": 19646797,
+          "seconds": 36.5,
+          "frameKey": "guli-car-4",
+          "crop": [
+            0.21,
+            0.015,
+            0.79,
+            1
+          ]
+        },
+        "description": "Monkey with the orange scooter and checkered flag."
+      },
+      "bike": {
+        "src": "game-stills/guli/bike.jpg",
+        "kind": "video-frame",
+        "width": 832,
+        "height": 664,
+        "source": {
+          "videoId": "3a3e682c7b3ed6c1ea5f8939",
+          "video": "古力小超人 06 Ready,Go!.mp4",
+          "bytes": 19646797,
+          "seconds": 26.4,
+          "frameKey": "guli-bike-3",
+          "crop": [
+            0.2,
+            0.03,
+            0.85,
+            0.99
+          ]
+        },
+        "description": "Bunny and duck riding their bicycle."
+      },
+      "car": {
+        "src": "game-stills/guli/car.jpg",
+        "kind": "video-frame",
+        "width": 845,
+        "height": 630,
+        "source": {
+          "videoId": "3a3e682c7b3ed6c1ea5f8939",
+          "video": "古力小超人 06 Ready,Go!.mp4",
+          "bytes": 19646797,
+          "seconds": 31.0,
+          "frameKey": "guli-car-2",
+          "crop": [
+            0.24,
+            0.08,
+            0.9,
+            0.99
+          ]
+        },
+        "description": "Lion driving the blue car."
+      },
+      "four-balloons": {
+        "src": "game-stills/guli/four-balloons.jpg",
+        "kind": "video-frame",
+        "width": 960,
+        "height": 407,
+        "source": {
+          "videoId": "5eb61f91e22c2d49038f7ac0",
+          "video": "古力小超人 07 The Birthday Party.mp4",
+          "bytes": 24492909,
+          "seconds": 106,
+          "frameKey": "guli-balloons-final",
+          "crop": [
+            0,
+            0.2,
+            1,
+            0.99
+          ]
+        },
+        "description": "Four birthday balloons: orange, pink, blue and green."
+      },
+      "two-balloons": {
+        "src": "game-stills/guli/two-balloons.jpg",
+        "kind": "video-frame",
+        "width": 346,
+        "height": 481,
+        "source": {
+          "videoId": "5eb61f91e22c2d49038f7ac0",
+          "video": "古力小超人 07 The Birthday Party.mp4",
+          "bytes": 24492909,
+          "seconds": 106,
+          "frameKey": "guli-balloons-final",
+          "crop": [
+            0,
+            0.29,
+            0.27,
+            0.99
+          ]
+        },
+        "description": "Only the two balloons on the left of the birthday decoration."
+      },
+      "one-balloon": {
+        "src": "game-stills/guli/one-balloon.jpg",
+        "kind": "video-frame",
+        "width": 332,
+        "height": 254,
+        "source": {
+          "videoId": "5eb61f91e22c2d49038f7ac0",
+          "video": "古力小超人 07 The Birthday Party.mp4",
+          "bytes": 24492909,
+          "seconds": 45.4,
+          "frameKey": "guli-four-balloons-3",
+          "crop": [
+            0.17,
+            0.16,
+            0.43,
+            0.53
+          ]
+        },
+        "description": "Only the inflated pink balloon at the bird beak."
+      },
+      "cake": {
+        "src": "game-stills/guli/cake.jpg",
+        "kind": "video-frame",
+        "width": 730,
+        "height": 667,
+        "source": {
+          "videoId": "5eb61f91e22c2d49038f7ac0",
+          "video": "古力小超人 07 The Birthday Party.mp4",
+          "bytes": 24492909,
+          "seconds": 174,
+          "frameKey": "guli-cake-final",
+          "crop": [
+            0.23,
+            0.01,
+            0.8,
+            0.98
+          ]
+        },
+        "description": "The finished birthday cake with candles."
+      },
+      "apple": {
+        "src": "game-stills/guli/apple.jpg",
+        "kind": "video-frame",
+        "width": 243,
+        "height": 267,
+        "source": {
+          "videoId": "3ea6d42c2b2a177c1d7ead53",
+          "video": "古力小超人 08 Yum-Yum.mp4",
+          "bytes": 24738988,
+          "seconds": 47.5,
+          "frameKey": "guli-apple-final",
+          "crop": [
+            0.65,
+            0.025,
+            0.84,
+            0.41
+          ]
+        },
+        "description": "The red apple held up beside monkey."
+      },
+      "carrot": {
+        "src": "game-stills/guli/carrot.jpg",
+        "kind": "video-frame",
+        "width": 525,
+        "height": 540,
+        "source": {
+          "videoId": "3ea6d42c2b2a177c1d7ead53",
+          "video": "古力小超人 08 Yum-Yum.mp4",
+          "bytes": 24738988,
+          "seconds": 102.5,
+          "frameKey": "guli-carrot-final",
+          "crop": [
+            0.16,
+            0.11,
+            0.57,
+            0.89
+          ]
+        },
+        "description": "Duck holding a picked orange carrot."
+      },
+      "nuts": {
+        "src": "game-stills/guli/nuts.jpg",
+        "kind": "video-frame",
+        "width": 666,
+        "height": 546,
+        "source": {
+          "videoId": "3ea6d42c2b2a177c1d7ead53",
+          "video": "古力小超人 08 Yum-Yum.mp4",
+          "bytes": 24738988,
+          "seconds": 182.5,
+          "frameKey": "guli-nuts-final",
+          "crop": [
+            0.25,
+            0.04,
+            0.77,
+            0.83
+          ]
+        },
+        "description": "The acorn cluster and leaves from the picking song."
+      },
+      "star": {
+        "src": "game-stills/guli/star.jpg",
+        "kind": "video-frame",
+        "width": 397,
+        "height": 378,
+        "source": {
+          "videoId": "504ca49bc07c2845534d4529",
+          "video": "古力小超人 09 Go Away，Shadow.mp4",
+          "bytes": 21274728,
+          "seconds": 140.5,
+          "frameKey": "guli-star-2",
+          "crop": [
+            0.54,
+            0,
+            0.85,
+            0.55
+          ]
+        },
+        "description": "The large shining yellow star."
+      },
+      "owl": {
+        "src": "game-stills/guli/owl.jpg",
+        "kind": "video-frame",
+        "width": 179,
+        "height": 214,
+        "source": {
+          "videoId": "504ca49bc07c2845534d4529",
+          "video": "古力小超人 09 Go Away，Shadow.mp4",
+          "bytes": 21274728,
+          "seconds": 76.1,
+          "frameKey": "guli-owl-1",
+          "crop": [
+            0,
+            0.13,
+            0.14,
+            0.44
+          ]
+        },
+        "description": "The brown owl in the night tree."
+      },
+      "bunny": {
+        "src": "game-stills/guli/bunny.jpg",
+        "kind": "video-frame",
+        "width": 473,
+        "height": 660,
+        "source": {
+          "videoId": "66ebbaa933529208c181abad",
+          "video": "古力小超人 10 Follow Me.mp4",
+          "bytes": 22695464,
+          "seconds": 27.5,
+          "frameKey": "guli-bunny-final",
+          "crop": [
+            0.22,
+            0,
+            0.59,
+            0.96
+          ]
+        },
+        "description": "The familiar pink bunny in the snow."
+      },
+      "umbrella": {
+        "src": "game-stills/guli/umbrella.jpg",
+        "kind": "video-frame",
+        "width": 756,
+        "height": 672,
+        "source": {
+          "videoId": "9587cf45391f8e150eb880b8",
+          "video": "古力小超人 11 The Rainy Day.mp4",
+          "bytes": 22045344,
+          "seconds": 79.08,
+          "frameKey": "guli-umbrella-0",
+          "crop": [
+            0.18,
+            0,
+            0.77,
+            0.98
+          ]
+        },
+        "description": "Monkey holding the open green umbrella in the rain."
+      },
+      "cook": {
+        "src": "game-stills/guli/cook.jpg",
+        "kind": "video-frame",
+        "width": 602,
+        "height": 603,
+        "source": {
+          "videoId": "f9ea817b09bafe3c1ebc87fd",
+          "video": "古力小超人 12 Who are You.mp4",
+          "bytes": 23205058,
+          "seconds": 60.6,
+          "frameKey": "guli-cook-1",
+          "crop": [
+            0.48,
+            0.01,
+            0.95,
+            0.88
+          ]
+        },
+        "description": "Duck dressed as a cook, holding the mixing bowl."
+      }
+    },
+    "wow": {
+      "hello": {
+        "src": "game-stills/wow/hello.jpg",
+        "kind": "video-frame",
+        "width": 858,
+        "height": 605,
+        "source": {
+          "videoId": "6165021fd1443ce75721df18",
+          "video": "001.Wow!Yellow Unit 1 hello video_story.mp4",
+          "bytes": 83078443,
+          "seconds": 34,
+          "frameKey": "wow-walk-0",
+          "crop": [
+            0.18,
+            0.06,
+            0.85,
+            0.9
+          ]
+        },
+        "description": "Steve waving hello to the boys and girls."
+      },
+      "run": {
+        "src": "game-stills/wow/run.jpg",
+        "kind": "video-frame",
+        "width": 269,
+        "height": 562,
+        "source": {
+          "videoId": "6165021fd1443ce75721df18",
+          "video": "001.Wow!Yellow Unit 1 hello video_story.mp4",
+          "bytes": 83078443,
+          "seconds": 202.54,
+          "frameKey": "wow-run-2",
+          "crop": [
+            0.34,
+            0.1,
+            0.55,
+            0.88
+          ]
+        },
+        "description": "Steve running on the spot with bent arms."
+      },
+      "walk": {
+        "src": "game-stills/wow/walk.jpg",
+        "kind": "video-frame",
+        "width": 320,
+        "height": 662,
+        "source": {
+          "videoId": "6165021fd1443ce75721df18",
+          "video": "001.Wow!Yellow Unit 1 hello video_story.mp4",
+          "bytes": 83078443,
+          "seconds": 72,
+          "frameKey": "wow-walk-2",
+          "crop": [
+            0.35,
+            0.05,
+            0.6,
+            0.97
+          ]
+        },
+        "description": "Steve walking with one foot in front of the other."
+      },
+      "red": {
+        "src": "game-stills/wow/red.jpg",
+        "kind": "video-frame",
+        "width": 294,
+        "height": 209,
+        "source": {
+          "videoId": "446a7f09b6c113316ba4ebe2",
+          "video": "004.Wow!Yellow Unit 2 colour video_story.mp4",
+          "bytes": 85592709,
+          "seconds": 79.5,
+          "frameKey": "wow-red-4",
+          "crop": [
+            0.16,
+            0.02,
+            0.39,
+            0.31
+          ]
+        },
+        "description": "The red fabric section of Maggie and Steve parachute."
+      },
+      "green": {
+        "src": "game-stills/wow/green.jpg",
+        "kind": "video-frame",
+        "width": 320,
+        "height": 216,
+        "source": {
+          "videoId": "446a7f09b6c113316ba4ebe2",
+          "video": "004.Wow!Yellow Unit 2 colour video_story.mp4",
+          "bytes": 85592709,
+          "seconds": 143.14,
+          "frameKey": "wow-green-4",
+          "crop": [
+            0.28,
+            0.62,
+            0.53,
+            0.92
+          ]
+        },
+        "description": "The green fabric section of the same parachute."
+      },
+      "yellow": {
+        "src": "game-stills/wow/yellow.jpg",
+        "kind": "video-frame",
+        "width": 435,
+        "height": 202,
+        "source": {
+          "videoId": "446a7f09b6c113316ba4ebe2",
+          "video": "004.Wow!Yellow Unit 2 colour video_story.mp4",
+          "bytes": 85592709,
+          "seconds": 79.5,
+          "frameKey": "wow-red-4",
+          "crop": [
+            0.47,
+            0,
+            0.81,
+            0.28
+          ]
+        },
+        "description": "The yellow fabric section of the same parachute."
+      },
+      "house": {
+        "src": "game-stills/wow/house.jpg",
+        "kind": "video-frame",
+        "width": 768,
+        "height": 562,
+        "source": {
+          "videoId": "e4fe5fd58904751448719c30",
+          "video": "006.Wow!Yellow Unit 3 garden - part 1 video_story.mp4",
+          "bytes": 91988284,
+          "seconds": 240.38,
+          "frameKey": "wow-house-3",
+          "crop": [
+            0.25,
+            0,
+            0.85,
+            0.78
+          ]
+        },
+        "description": "Steve yellow playhouse, including the complete red roof."
+      },
+      "door": {
+        "src": "game-stills/wow/door.jpg",
+        "kind": "video-frame",
+        "width": 307,
+        "height": 713,
+        "source": {
+          "videoId": "5254201fd22930b8ad553a6a",
+          "video": "008.Wow!Yellow Unit 3 garden - part 2 video_story.mp4",
+          "bytes": 104743329,
+          "seconds": 106,
+          "frameKey": "wow-sun-more-0",
+          "crop": [
+            0.76,
+            0,
+            1,
+            0.99
+          ]
+        },
+        "description": "The red playhouse door, cropped to the door."
+      },
+      "tree": {
+        "src": "game-stills/wow/tree.jpg",
+        "kind": "video-frame",
+        "width": 295,
+        "height": 453,
+        "source": {
+          "videoId": "5254201fd22930b8ad553a6a",
+          "video": "008.Wow!Yellow Unit 3 garden - part 2 video_story.mp4",
+          "bytes": 104743329,
+          "seconds": 63.64,
+          "frameKey": "wow-tree-1",
+          "crop": [
+            0.23,
+            0.18,
+            0.46,
+            0.81
+          ]
+        },
+        "description": "The green tree Steve paints on the canvas."
+      },
+      "sun": {
+        "src": "game-stills/wow/sun.jpg",
+        "kind": "video-frame",
+        "width": 256,
+        "height": 310,
+        "source": {
+          "videoId": "5254201fd22930b8ad553a6a",
+          "video": "008.Wow!Yellow Unit 3 garden - part 2 video_story.mp4",
+          "bytes": 104743329,
+          "seconds": 122,
+          "frameKey": "wow-sun-clean-2",
+          "crop": [
+            0.79,
+            0,
+            0.99,
+            0.43
+          ]
+        },
+        "description": "The big yellow sun in Steve painting."
+      },
+      "flower": {
+        "src": "game-stills/wow/flower.jpg",
+        "kind": "video-frame",
+        "width": 372,
+        "height": 360,
+        "source": {
+          "videoId": "5254201fd22930b8ad553a6a",
+          "video": "008.Wow!Yellow Unit 3 garden - part 2 video_story.mp4",
+          "bytes": 104743329,
+          "seconds": 184,
+          "frameKey": "wow-flower-0",
+          "crop": [
+            0.13,
+            0.48,
+            0.42,
+            0.98
+          ]
+        },
+        "description": "The pink flower inside Steve painting."
+      },
+      "car": {
+        "src": "game-stills/wow/car.jpg",
+        "kind": "video-frame",
+        "width": 294,
+        "height": 216,
+        "source": {
+          "videoId": "09fe9e13fbdf3b2f36448845",
+          "video": "011.Wow!Yellow Unit 4 toys- part 1 video_song.mp4",
+          "bytes": 29186390,
+          "seconds": 39,
+          "frameKey": "wow-car-clean-2",
+          "crop": [
+            0.56,
+            0.14,
+            0.79,
+            0.44
+          ]
+        },
+        "description": "The yellow car drawing on the familiar whiteboard."
+      },
+      "bike": {
+        "src": "game-stills/wow/bike.jpg",
+        "kind": "video-frame",
+        "width": 294,
+        "height": 274,
+        "source": {
+          "videoId": "09fe9e13fbdf3b2f36448845",
+          "video": "011.Wow!Yellow Unit 4 toys- part 1 video_song.mp4",
+          "bytes": 29186390,
+          "seconds": 23.0,
+          "frameKey": "wow-bike-0",
+          "crop": [
+            0.57,
+            0.1,
+            0.8,
+            0.48
+          ]
+        },
+        "description": "The bicycle drawing on the same whiteboard."
+      },
+      "train": {
+        "src": "game-stills/wow/train.jpg",
+        "kind": "video-frame",
+        "width": 960,
+        "height": 411,
+        "source": {
+          "videoId": "dd652b081babb5d5cfca6f3c",
+          "video": "010.Wow!Yellow Unit 4 toys- part 1 video_story.mp4",
+          "bytes": 100030891,
+          "seconds": 203.08,
+          "frameKey": "wow-train-1",
+          "crop": [
+            0.06,
+            0.16,
+            0.98,
+            0.86
+          ]
+        },
+        "description": "The bright toy train, with Steve in the engine."
+      },
+      "arms": {
+        "src": "game-stills/wow/arms.jpg",
+        "kind": "video-frame",
+        "width": 845,
+        "height": 526,
+        "source": {
+          "videoId": "33f8c376b5451aec07e997df",
+          "video": "014.Wow!Yellow Unit 5 'body' - part 1 video_story.mp4",
+          "bytes": 88791899,
+          "seconds": 135,
+          "frameKey": "wow-arms-extra-0",
+          "crop": [
+            0.24,
+            0.02,
+            0.9,
+            0.75
+          ]
+        },
+        "description": "The two floating arms from the body lesson."
+      },
+      "legs": {
+        "src": "game-stills/wow/legs.jpg",
+        "kind": "video-frame",
+        "width": 346,
+        "height": 381,
+        "source": {
+          "videoId": "33f8c376b5451aec07e997df",
+          "video": "014.Wow!Yellow Unit 5 'body' - part 1 video_story.mp4",
+          "bytes": 88791899,
+          "seconds": 114,
+          "frameKey": "wow-legs-extra-0",
+          "crop": [
+            0.24,
+            0.29,
+            0.51,
+            0.82
+          ]
+        },
+        "description": "The two jeans-clad legs from the same body lesson."
+      },
+      "face": {
+        "src": "game-stills/wow/face.jpg",
+        "kind": "video-frame",
+        "width": 538,
+        "height": 475,
+        "source": {
+          "videoId": "33f8c376b5451aec07e997df",
+          "video": "014.Wow!Yellow Unit 5 'body' - part 1 video_story.mp4",
+          "bytes": 88791899,
+          "seconds": 62,
+          "frameKey": "wow-face-1",
+          "crop": [
+            0.29,
+            0.1,
+            0.71,
+            0.76
+          ]
+        },
+        "description": "Steve floating face in the body lesson."
+      },
+      "apple": {
+        "src": "game-stills/wow/apple.jpg",
+        "kind": "video-frame",
+        "width": 410,
+        "height": 475,
+        "source": {
+          "videoId": "5d11aec32eb6936c5db39014",
+          "video": "018.Wow!Yellow Unit 6 'food' - part 1 video_story.mp4",
+          "bytes": 142911603,
+          "seconds": 84,
+          "frameKey": "wow-apple-final",
+          "crop": [
+            0.45,
+            0.13,
+            0.77,
+            0.79
+          ]
+        },
+        "description": "The large red apple revealed by Maggie magic."
+      },
+      "banana": {
+        "src": "game-stills/wow/banana.jpg",
+        "kind": "video-frame",
+        "width": 512,
+        "height": 519,
+        "source": {
+          "videoId": "5d11aec32eb6936c5db39014",
+          "video": "018.Wow!Yellow Unit 6 'food' - part 1 video_story.mp4",
+          "bytes": 142911603,
+          "seconds": 160.36,
+          "frameKey": "wow-banana-1",
+          "crop": [
+            0.43,
+            0.07,
+            0.83,
+            0.79
+          ]
+        },
+        "description": "The large yellow banana from the food lesson."
+      },
+      "orange": {
+        "src": "game-stills/wow/orange.jpg",
+        "kind": "video-frame",
+        "width": 436,
+        "height": 497,
+        "source": {
+          "videoId": "5d11aec32eb6936c5db39014",
+          "video": "018.Wow!Yellow Unit 6 'food' - part 1 video_story.mp4",
+          "bytes": 142911603,
+          "seconds": 242.32,
+          "frameKey": "wow-orange-3",
+          "crop": [
+            0.43,
+            0.1,
+            0.77,
+            0.79
+          ]
+        },
+        "description": "The large orange from the same food lesson."
+      },
+      "butterfly": {
+        "src": "game-stills/wow/butterfly.jpg",
+        "kind": "video-frame",
+        "width": 384,
+        "height": 310,
+        "source": {
+          "videoId": "f4754a400ce3d2cb1397af43",
+          "video": "024.Wow!Yellow Unit 7 bugs - part 2 video_story_7_2.mp4",
+          "bytes": 115005464,
+          "seconds": 170.32,
+          "frameKey": "wow-butterfly-0",
+          "crop": [
+            0.61,
+            0.06,
+            0.91,
+            0.49
+          ]
+        },
+        "description": "The purple butterfly beside the garden tree."
+      },
+      "bee": {
+        "src": "game-stills/wow/bee.jpg",
+        "kind": "video-frame",
+        "width": 371,
+        "height": 360,
+        "source": {
+          "videoId": "0454e6cb8f3e7e88e80f14e4",
+          "video": "022.Wow!Yellow Unit 7 'bugs' - part 1 video_story_7_1.mp4",
+          "bytes": 113296598,
+          "seconds": 29.4,
+          "frameKey": "wow-bee-3",
+          "crop": [
+            0.65,
+            0.29,
+            0.94,
+            0.79
+          ]
+        },
+        "description": "The bee illustration in the original bugs introduction."
+      },
+      "ladybird": {
+        "src": "game-stills/wow/ladybird.jpg",
+        "kind": "video-frame",
+        "width": 423,
+        "height": 353,
+        "source": {
+          "videoId": "0454e6cb8f3e7e88e80f14e4",
+          "video": "022.Wow!Yellow Unit 7 'bugs' - part 1 video_story_7_1.mp4",
+          "bytes": 113296598,
+          "seconds": 177,
+          "frameKey": "wow-ladybird-1",
+          "crop": [
+            0.58,
+            0.24,
+            0.91,
+            0.73
+          ]
+        },
+        "description": "The large red ladybird by the pond."
+      },
+      "happy": {
+        "src": "game-stills/wow/happy.jpg",
+        "kind": "video-frame",
+        "width": 396,
+        "height": 425,
+        "source": {
+          "videoId": "89887dcd3ca12d1f415214ea",
+          "video": "027.Wow!Yellow Unit 8 'feelings' - part 1 video_song_8_1.mp4",
+          "bytes": 37869975,
+          "seconds": 77.32,
+          "frameKey": "wow-happy-1",
+          "crop": [
+            0.07,
+            0.17,
+            0.38,
+            0.76
+          ]
+        },
+        "description": "Steve smiling widely during the happy refrain."
+      },
+      "sad": {
+        "src": "game-stills/wow/sad.jpg",
+        "kind": "video-frame",
+        "width": 384,
+        "height": 404,
+        "source": {
+          "videoId": "89887dcd3ca12d1f415214ea",
+          "video": "027.Wow!Yellow Unit 8 'feelings' - part 1 video_song_8_1.mp4",
+          "bytes": 37869975,
+          "seconds": 42.5,
+          "frameKey": "wow-sad-final",
+          "crop": [
+            0.08,
+            0.17,
+            0.38,
+            0.73
+          ]
+        },
+        "description": "Steve making a sad face during the sad refrain."
+      },
+      "okay": {
+        "src": "game-stills/wow/okay.jpg",
+        "kind": "video-frame",
+        "width": 384,
+        "height": 404,
+        "source": {
+          "videoId": "89887dcd3ca12d1f415214ea",
+          "video": "027.Wow!Yellow Unit 8 'feelings' - part 1 video_song_8_1.mp4",
+          "bytes": 37869975,
+          "seconds": 25,
+          "frameKey": "wow-okay-2",
+          "crop": [
+            0.08,
+            0.17,
+            0.38,
+            0.73
+          ]
+        },
+        "description": "Steve with a relaxed face during the okay refrain."
+      }
+    }
+  }
+}
